@@ -110,13 +110,15 @@
       </tr>
     </table>
     <hr>
+    <p id="test"></p>
     <table border="1" id="order">
     </table>
   </body>
   <script>
     $.get("./test.txt", function(data){
       var lines = data.split("\n");
-      $("#order").text(lines[0])
+      $("#order").text(lines[0]);
+      $("#test").text(lines);
     });
   </script>
 </html>
