@@ -120,7 +120,9 @@
         var lines = data.split("\n");
         $.each(lines, function(index, value){
           e = value.split(", ");
-          $("#order").append("<tr><td>" + e[0] + "</td><td>" + e[1] + "</td> <td>" + e[2] + "</td> <td>" + e[3] + "</td> <td>" + e[4] + "</td> <td>" + e[5] + "</td> <td>" + e[6] + "</td> <td>" + e[7] + "</td> <td>" + e[8] + "</td> <td>" + e[9] + "</td> <td>" + e[10] + "</td> <td>" + e[11] + "</td></tr>");
+          if (index < lines.length() - 1){
+            $("#order").append("<tr><td>" + e[0] + "</td><td>" + e[1] + "</td> <td>" + e[2] + "</td> <td>" + e[3] + "</td> <td>" + e[4] + "</td> <td>" + e[5] + "</td> <td>" + e[6] + "</td> <td>" + e[7] + "</td> <td>" + e[8] + "</td> <td>" + e[9] + "</td> <td>" + e[10] + "</td> <td><a href='" + e[11] + "'>移動</a></td></tr>");
+          }
         });
       });
     });
