@@ -113,4 +113,10 @@
     <table border="1" id="order">
     </table>
   </body>
+  <script>
+    $.get("./test.txt", function(data){
+      var lines = data.split("\n");
+      $("#order").text(lines)
+    });
+  </script>
 </html>
