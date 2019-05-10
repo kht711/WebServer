@@ -110,15 +110,19 @@
       </tr>
     </table>
     <hr>
-    <p id="test"></p>
     <table border="1" id="order">
     </table>
   </body>
   <script>
-    $.get("./test.txt", function(data){
-      var lines = data.split("\n");
-      $("#order").text(lines[0]);
-      $("#test").text(lines);
+    $(document).ready(function (){
+      ("#order").append("<tr><th>番号</th> <th>リスト順</th> <th>名前</th> <th>レア度</th> <th>属性</th> <th>性格</th> <th>スキル範囲</th> <th>スキル内容</th> <th>スキル規模</th> <th>スキル名</th> <th>カード個数</th> <th>URL移動</th></tr>");
+      $.get("./test.txt", function(data){
+        var lines = data.split("\n");
+        $.each(lines, function(index, value){
+          e = value.split(", ");
+          ("#order").append("<tr><td>" + e[0] + "</td><td>" + e[1] + "</td> <td>" + e[2] + "</td> <td>" + e[3] + "</td> <td>" + e[4] + "</td> <td>" + e[5] + "</td> <td>" + e[6] + "</td> <td>" + e[7] + "</td> <td>" + e[8] + "</td> <td>" + e[9] + "</td> <td>" + e[10] + "</td> <td>" + e[11] + "</td></tr>");
+        });
+      });
     });
   </script>
 </html>
