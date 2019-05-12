@@ -117,7 +117,7 @@
     var listNum = 1;
     $(document).ready(function (){
       $("#order").append("<tr><th>番号</th> <th>リスト順</th> <th>名前</th> <th>レア度</th> <th>属性</th> <th>性格</th> <th>スキル範囲</th> <th>スキル内容</th> <th>スキル規模</th> <th>スキル名</th> <th>カード個数</th> <th>URL移動</th></tr>");
-      $.get("./yandemicList.txt", function(data){
+      $.get("http://k404.epizy.com/yandemicList.txt", function(data){
         var lines = data.split("\n");
         $.each(lines, function(index, value){
           if (index < lines.length - 1){
