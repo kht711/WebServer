@@ -114,7 +114,6 @@
     </table>
   </body>
   <script>
-    var listNum = 1;
     $(document).ready(function (){
       $("#order").append("<tr><th>番号</th> <th>リスト順</th> <th>名前</th> <th>レア度</th> <th>属性</th> <th>性格</th> <th>スキル範囲</th> <th>スキル内容</th> <th>スキル規模</th> <th>スキル名</th> <th>カード個数</th> <th>URL移動</th></tr>");
       $.get("yandemicList.txt", function(data){
@@ -122,8 +121,7 @@
         $.each(lines, function(index, value){
           if (index < lines.length - 1){
             e = value.split(", ");
-            $("#order").append("<tr><td>" + e[0] + "</td><td>" + listNum + "</td> <td title='" + e[2] + "'>" + e[1] + "</td> <td>" + e[3] + "</td> <td>" + e[4] + "</td> <td>" + e[5] + "</td> <td>" + e[6] + "</td> <td>" + e[7] + "</td> <td>" + e[8] + "</td> <td>" + e[9] + "</td> <td>" + e[10] + "</td> <td><a href='" + e[11] + "'>移動</a></td></tr>");
-            listNum = listNum + Number(e[10]);
+            $("#order").append("<tr><td>" + e[0] + "</td><td>" + e[1] + "</td> <td title='" + e[3] + "'>" + e[2] + "</td> <td>" + e[4] + "</td> <td>" + e[5] + "</td> <td>" + e[6] + "</td> <td>" + e[7] + "</td> <td>" + e[8] + "</td> <td>" + e[9] + "</td> <td>" + e[10] + "</td> <td>" + e[11] + "</td> <td><a href='" + e[12] + "'>移動</a></td></tr>");
           }
         });
       });
