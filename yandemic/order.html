@@ -150,7 +150,7 @@
         if (name != ''){
             for (let i = 1; i < tr.length; i++){
                 let td = tr[i].getElementsByTagName("td");
-                if (td[3].innerHTML.indexOf(name) == -1 && td[3].title.indexOf(name) == -1){
+                if (td[2].innerHTML.indexOf(name) == -1 && td[2].title.indexOf(name) == -1){
                     tr[i].style.display = "none";
                 }
             }
@@ -159,7 +159,7 @@
         if (rare != '*'){
             for (i = 1; i < tr.length; i++){
                 let td = tr[i].getElementsByTagName('td');
-                if (td[4].innerHTML != rare){
+                if (td[3].innerHTML != rare){
                     tr[i].style.display = "none";
                 }
             }
@@ -168,7 +168,7 @@
         if (zokusei != '*'){
             for (i = 1; i < tr.length; i++){
                 let td = tr[i].getElementsByTagName('td');
-                if (td[5].innerHTML != zokusei){
+                if (td[4].innerHTML != zokusei){
                     tr[i].style.display = "none";
                 }
             }
@@ -177,7 +177,7 @@
         if (seikaku != '*'){
             for (i = 1; i < tr.length; i++){
                 let td = tr[i].getElementsByTagName('td');
-                if (td[6].innerHTML != seikaku){
+                if (td[5].innerHTML != seikaku){
                     tr[i].style.display = "none";
                 }
             }
@@ -186,7 +186,7 @@
         if (skill_who != '*'){
             for (i = 1; i < tr.length; i++){
                 let td = tr[i].getElementsByTagName('td');
-                if (td[7].innerHTML != skill_who){
+                if (td[6].innerHTML != skill_who){
                     tr[i].style.display = "none";
                 }
             }
@@ -195,7 +195,7 @@
         if (skill_what != '*'){
             for (i = 1; i < tr.length; i++){
                 let td = tr[i].getElementsByTagName('td');
-                if (td[8].innerHTML != skill_what){
+                if (td[7].innerHTML != skill_what){
                     tr[i].style.display = "none";
                 }
             }
@@ -204,7 +204,7 @@
         if (skill_size != '*'){
             for (i = 1; i < tr.length; i++){
                 let td = tr[i].getElementsByTagName('td');
-                if (td[9].innerHTML != skill_size){
+                if (td[8].innerHTML != skill_size){
                     tr[i].style.display = "none";
                 }
             }
