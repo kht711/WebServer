@@ -131,79 +131,83 @@
   </script>
 </html>
 <script>
-  let selectTable = document.getElementById("order");
+    let table = document.getElementById("order");
 
-  let columnName = ["レア度", "属性", "性格", "スキル範囲", "スキル内容", "スキル規模"];
-  let column1 = ["*", "N", "R", "HR", "SR"];
-  let column2 = ["*", "依存", "執着", "束縛", "狂気", "無属"];
-  let column3 = ["*", "元気", "活発", "清楚", "癒やし", "献身",
-  "陰湿", "狡猾", "乱暴", "凶暴", "バカ",
-  "ドジ", "ツンデレ", "変態", "淫乱", "甘えん坊",
-  "腹黒", "ぷんぷん", "すきんしっぱー", "抑圧ちゃん", "怪奇",
-  "逆襲"];
-  let column4 = ["*", "自", "全", "単", "敵", "敵全", "N/A"];
-  let column5 = ["*", "攻UP", "攻DOWN", "防UP", "防DOWN",
-  "狂乱", "狡猾", "心中", "束縛", "感染", "監禁", "献身"];
-  let column6 = ["*", "小", "中", "大", "N/A"];
-  let columns = [column1, column2, column3, column4, column5, column6];
+    function filter(){
+        let name = document.getElementById('name').value;
+        let rare = document.getElementById('rare').value;
+        let zokusei = document.getElementById('zokusei').value;
+        let seikaku = document.getElementById('seikaku').value;
+        let skill_who = document.getElementById('skill_who').value;
+        let skill_what = document.getElementById('skill_what').value;
+        let skill_size = document.getElementById('skill_size').value;
+        
+        let tr = table.getElementsByTagName('tr');
+        for (i = 1; i < tr.length; i++){
+            tr[i].style.display = '';
+        }
 
-  for (let i = 0; i < columnName.length; i++){
-      let tr = document.createElement("tr");
-      selectTable.appendChild(tr);
-      for (let j = 0; j < 2; j++){
-          let td = document.createElement("td");
-          tr.appendChild(td);
-          if (j == 0){
-              td.innerHTML = columnName[i] + " : ";
-          }else{
-              td.style.width = "150px";
-              let select = document.createElement("select");
-              td.appendChild(select);
-              select.style.width = "150px";
-              select.addEventListener("change", filter);
-              for (let op = 0; op < columns[i].length; op++){
-                  let option = document.createElement("option");
-                  option.text = columns[i][op];
-                  select.add(option);
-              }
-          }
-      }
-  }
-  let hr = document.createElement("hr");
-  filterDiv.appendChild(hr);
+        if (name != ''){
+            for (let i = 1; i < tr.length; i++){
+                let td = tr[i].getElementsByTagName("td");
+                if (td[3].innerHTML.indexOf(name) == -1 && td[3].title.indexOf(name) == -1){
+                    tr[i].style.display = "none";
+                }
+            }
+        }
 
+        if (rare != '*'){
+            for (i = 1; i < tr.length; i++){
+                let td = tr[i].getElementsByTagName('td');
+                if (td[4].innerHTML != rare){
+                    tr[i].style.display = "none";
+                }
+            }
+        }
 
-  function filter(){
-      let name = document.getElementById("name").value.trim();
-      let selectTable = document.getElementById("selectTable");
-      let selects = selectTable.getElementsByTagName("select");
+        if (zokusei != '*'){
+            for (i = 1; i < tr.length; i++){
+                let td = tr[i].getElementsByTagName('td');
+                if (td[5].innerHTML != zokusei){
+                    tr[i].style.display = "none";
+                }
+            }
+        }
 
-      let tr = table.getElementsByTagName('tr');
-      for (let i = 1; i < tr.length; i++){
-          tr[i].style.display = '';
-      }
+        if (seikaku != '*'){
+            for (i = 1; i < tr.length; i++){
+                let td = tr[i].getElementsByTagName('td');
+                if (td[6].innerHTML != seikaku){
+                    tr[i].style.display = "none";
+                }
+            }
+        }
 
-      if (name != ""){
-          for (let i = 1; i < tr.length; i++){
-              let td = tr[i].getElementsByTagName("td");
-              if (td[2].innerHTML.indexOf(name) == -1 && td[2].title.indexOf(name) == -1){
-                  tr[i].style.display = "none";
-              }
-          }
-      }
+        if (skill_who != '*'){
+            for (i = 1; i < tr.length; i++){
+                let td = tr[i].getElementsByTagName('td');
+                if (td[7].innerHTML != skill_who){
+                    tr[i].style.display = "none";
+                }
+            }
+        }
 
-      for (let sel = 0; sel < selects.length; sel++){
-          let filterValue = selects[sel].value;
-          if (filterValue != "*"){
-              for (let i = 1; i < tr.length; i++){
-                  let td = tr[i].getElementsByTagName("td");
-                  if ((sel == 0 || sel == 3) && td[sel + 3].innerHTML != filterValue){
-                      tr[i].style.display = "none";
-                  }else if (td[sel + 3].innerHTML.indexOf(filterValue) == -1){
-                      tr[i].style.display = "none";
-                  }
-              }
-          }
-      }
-  }
+        if (skill_what != '*'){
+            for (i = 1; i < tr.length; i++){
+                let td = tr[i].getElementsByTagName('td');
+                if (td[8].innerHTML != skill_what){
+                    tr[i].style.display = "none";
+                }
+            }
+        }
+
+        if (skill_size != '*'){
+            for (i = 1; i < tr.length; i++){
+                let td = tr[i].getElementsByTagName('td');
+                if (td[9].innerHTML != skill_size){
+                    tr[i].style.display = "none";
+                }
+            }
+        }
+    }
 </script>
