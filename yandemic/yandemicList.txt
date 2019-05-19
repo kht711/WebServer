@@ -980,7 +980,7 @@
 955, 3347, 歩成 溢流, ほなり あふる, HR, 執着, ドジ, 全, 攻UP, 中, ふふふ、先生と遊びましょう♪, 4, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=20-965&img_size=m,l
 956, 3351, 手緒 初, てお うい, R, 狂気, 献身, 全, 攻UP, 小, 裸白神様と教祖様が私の全て, 4, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=20-966&img_size=m,l
 957, 3355, 【再入信】九十九瞳, さいにゅうしん つくも ひとみ, R, 依存, 献身, 自, 防UP, 中, 私をお救い下さるのはあなただけ, 4, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=20-967&img_size=m,l
-958, 3359, 聖女と性女？, , R, *, *, NULL, NULL, NULL, NULL, 1, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=20-968&img_size=m,l
+958, 3359, 聖女と性女？, せいじょとせいじょ, R, 執着, 献身, 全, 攻UP, 中, Ｗでささげる乙女の祈り, 1, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=20-968&img_size=m,l
 959, 3360, 刈戸 葉真留, かると はまる, HR, 依存, 献身, 自, 防UP, 大, 白シャツが全てを救うのです, 4, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=20-969&img_size=m,l
 960, 3364, 刈戸 叛, かると そむく, HR, 執着, 抑圧ちゃん, 自, 攻UP, 中, 白シャツ…白シャツ？, 4, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=20-970&img_size=m,l
 961, 3368, 聖女 マリア, ひじりめ まりあ, HR, 束縛, 献身, 全, 防UP, 大, 私はただの…ただの『人間』です…, 4, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=20-971&img_size=m,l
