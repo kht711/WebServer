@@ -986,9 +986,9 @@
 961, 3368, 聖女 マリア, ひじりめ まりあ, HR, 束縛, 献身, 全, 防UP, 大, 私はただの…ただの『人間』です…, 4, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=20-971&img_size=m,l
 962, 3372, 後終 藍香, ごしまい あいか, R, 執着, ツンデレ, 自, 攻UP, 中, 大事な約束は絶対守るタイプよ, 4, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=20-972&img_size=m,l
 963, 3376, 後終 翠里, ごしまい みどり, R, 依存, 狡猾, 自, 防UP, 中, ずっと…待ってた…だから…, 4, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=20-973&img_size=m,l
-964, 3380, 五人分の花嫁, , R, *, *, NULL, NULL, NULL, NULL, 1, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=20-974&img_size=m,l
+964, 3380, 五人分の花嫁, ごにんぶんのはなよめ, R, 執着, 甘えん坊, 全, 防UP, 中, 同じ日に生まれた私達だから, 1, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=20-974&img_size=m,l
 965, 3381, 後終 桃華, ごしまい ももか, HR, 束縛, 甘えん坊, 全, 防UP, 中, 私の胸、好きでしょ～♪？, 4, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=20-975&img_size=m,l
-966, 3385, 後終 橙子, ごしまい とうこ, HR, *, *, NULL, NULL, NULL, NULL, 4, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=20-976&img_size=m,l
+966, 3385, 後終 橙子, ごしまい とうこ, HR, 執着, 元気, 全, 攻UP, 中, はいはーい！私と結婚するよねー！, 4, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=20-976&img_size=m,l
 967, 3389, 後終 紅梨, ごしまい あかり, HR, 束縛, 癒やし, 自, 防UP, 大, だって私、お姉ちゃんだから, 4, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=20-977&img_size=m,l
 998, 3393, 【USA】KASUMI NISHINA , ゆーえすえー かすみ にしな, HR, 狂気, 乱暴, 自, 狂乱, 大, Deadication, 4, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=20-978&img_size=m,l
 999, 3397, 【科学者】絵路 創 , かがくしゃ かいろ はじめ, HR, 無属, 逆襲, 自, 狂乱, 大, 最高の『共犯者』, 4, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=20-979&img_size=m,l
