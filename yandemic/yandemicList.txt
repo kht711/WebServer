@@ -990,5 +990,7 @@
 965, 3381, 後終 桃華, ごしまい ももか, HR, 束縛, 甘えん坊, 全, 防UP, 中, 私の胸、好きでしょ～♪？, 4, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=20-975&img_size=m,l
 966, 3385, 後終 橙子, ごしまい とうこ, HR, 執着, 元気, 全, 攻UP, 中, はいはーい！私と結婚するよねー！, 4, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=20-976&img_size=m,l
 967, 3389, 後終 紅梨, ごしまい あかり, HR, 束縛, 癒やし, 自, 防UP, 大, だって私、お姉ちゃんだから, 4, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=20-977&img_size=m,l
-998, 3393, 【USA】KASUMI NISHINA , ゆーえすえー かすみ にしな, HR, 狂気, 乱暴, 自, 狂乱, 大, Deadication, 4, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=20-978&img_size=m,l
-999, 3397, 【科学者】絵路 創 , かがくしゃ かいろ はじめ, HR, 無属, 逆襲, 自, 狂乱, 大, 最高の『共犯者』, 4, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=20-979&img_size=m,l
+968, 3393, 【ウェディング】忌家 鈴音, うえでぃんぐ いけ すずね, HR, 無属, 清楚, 全, 攻DOWN, 大, 私の夢が叶った瞬間…, 4, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=20-978&img_size=m,l
+969, 3397, 【ウェディング】亞沙樹さん, うえでぃんぐ あさきさん, HR, 狂気, 狡猾, 自, 攻UP, 大, 貴方を奪ってこその花嫁・亞沙樹よ , 4, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=20-979&img_size=m,l
+998, 3401, 【USA】KASUMI NISHINA , ゆーえすえー かすみ にしな, HR, 狂気, 乱暴, 自, 狂乱, 大, Deadication, 4, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=20-980&img_size=m,l
+999, 3405, 【科学者】絵路 創 , かがくしゃ かいろ はじめ, HR, 無属, 逆襲, 自, 狂乱, 大, 最高の『共犯者』, 4, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=20-981&img_size=m,l
