@@ -994,7 +994,7 @@
 969, 3397, 【ウェディング】亞沙樹さん, うえでぃんぐ あさきさん, HR, 狂気, 狡猾, 自, 攻UP, 大, 貴方を奪ってこその花嫁・亞沙樹よ , 4, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=20-979&img_size=m,l
 970, 3401, 椎長 詩干, ついなが うたほ, R, 執着, 狡猾, 全, 攻UP, 小, 乾物キノコが世界を救うの…, 4, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=20-980&img_size=m,l
 971, 3405, 滑川 滑子, なめりかわ なめこ, R, 依存, 変態, 自, 防UP, 中, ナメタケとナメコは違うからね？, 4, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=20-981&img_size=m,l
-972, 3409, 戦慄！希乃恋会議！！, , R, *, *, NULL, NULL, NULL, NULL, 1, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=20-982&img_size=m,l
+972, 3409, 戦慄！希乃恋会議！！, せんりつ！きのこかいぎ！！, R, 執着, 活発, 自, 攻UP, 中, きのこのこのこ私のこ…ヒヒヒ…, 1, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=20-982&img_size=m,l
 973, 3410, 【謀反】毎武 えのき, むほん まいたけ えのき, HR, 束縛, 陰湿, 全, 防UP, 大, キノコ研究会の二番手は返上よ！, 4, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=20-983&img_size=m,l
 974, 3414, 科竹 めんま, しなちく めんま, HR, 狂気, 凶暴, 全, 攻UP, 中, タケノコが世界の覇者なのだ！, 4, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=20-984&img_size=m,l
 975, 3418, 武南 姫路, ぶなん ひめじ, HR, 狂気, 逆襲, 自, 狂乱, 大, 世界は全てがぶなしめじの為に, 4, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=20-985&img_size=m,l
