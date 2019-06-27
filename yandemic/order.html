@@ -122,6 +122,15 @@
               </select>
           </td>
       </tr>
+      <tr>
+        <td>
+            病化しない<br>
+            キャラを除外する
+        </td>
+        <td>
+            <input type ="checkbox" id = "checkbox" onclick='filter()'>
+        </td>
+      </tr>
     </table>
     <hr>
     <table border="1" id="order">
@@ -139,6 +148,7 @@
         let skill_who = document.getElementById('skill_who').value;
         let skill_what = document.getElementById('skill_what').value;
         let skill_size = document.getElementById('skill_size').value;
+        let checkbox = document.getElementById('checkbox').checked;
         
         let tr = table.getElementsByTagName('tr');
         for (i = 1; i < tr.length; i++){
@@ -203,6 +213,15 @@
             for (i = 1; i < tr.length; i++){
                 let td = tr[i].getElementsByTagName('td');
                 if (td[8].innerHTML != skill_size){
+                    tr[i].style.display = "none";
+                }
+            }
+        }
+        
+        if (checkbox){
+            for (i = 1; i < tr.length; i++){
+                let td = tr[i].getElementsByTagName('td');
+                if (td[11].innerHTML == 1){
                     tr[i].style.display = "none";
                 }
             }
