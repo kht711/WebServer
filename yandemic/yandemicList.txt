@@ -998,5 +998,11 @@
 973, 3410, 【謀反】毎武 えのき, むほん まいたけ えのき, HR, 束縛, 陰湿, 全, 防UP, 大, キノコ研究会の二番手は返上よ！, 4, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=20-983&img_size=m,l
 974, 3414, 科竹 めんま, しなちく めんま, HR, 狂気, 凶暴, 全, 攻UP, 中, タケノコが世界の覇者なのだ！, 4, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=20-984&img_size=m,l
 975, 3418, 武南 姫路, ぶなん ひめじ, HR, 狂気, 逆襲, 自, 狂乱, 大, 世界は全てがぶなしめじの為に, 4, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=20-985&img_size=m,l
-998, 3422, 【USA】KASUMI NISHINA , ゆーえすえー かすみ にしな, HR, 狂気, 乱暴, 自, 狂乱, 大, Deadication, 4, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=20-986&img_size=m,l
-999, 3426, 【科学者】絵路 創 , かがくしゃ かいろ はじめ, HR, 無属, 逆襲, 自, 狂乱, 大, 最高の『共犯者』, 4, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=20-987&img_size=m,l
+976, 3422, 比米 小里, ひべい こさと, R, 執着, バカ, 全, 攻UP, 小, 彼に逢いたいただそれだけなのに… , 4, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=20-986&img_size=m,l
+977, 3426, 【人魚】不動院 雹加, にんぎょ ふどういん ひょうか, R, 束縛, 腹黒, 全, 防UP, 中, 人魚でも愛してくださいますよね？, 4, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=20-987&img_size=m,l
+978, 3430, 邂逅！呪いをつけた（？）二人！！, , R, *, *, NULL, NULL, NULL, NULL, 1, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=20-988&img_size=m,l
+979, 3431, 豆井戸 妃, まめいど　きさき, HR, 狂気, 狡猾, 自, 狂乱, 中, 愛しい者のためになら, 4, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=20-989&img_size=m,l
+980, 3435, 【人魚】小鈴, にんぎょ こすず, HR, 依存, 甘えん坊, 自, 防UP, 大, ふみゅ？人魚？王子様？ふみゅ！？, 4, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=20-990&img_size=m,l
+981, 3439, 豆井戸 姫, まめいど ひめ, HR, 執着, 抑圧ちゃん, 全, 攻UP, 大, ずっとずっと大好きです, 4, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=20-991&img_size=m,l
+998, 3443, 【USA】KASUMI NISHINA , ゆーえすえー かすみ にしな, HR, 狂気, 乱暴, 自, 狂乱, 大, Deadication, 4, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=20-992&img_size=m,l
+999, 3447, 【科学者】絵路 創 , かがくしゃ かいろ はじめ, HR, 無属, 逆襲, 自, 狂乱, 大, 最高の『共犯者』, 4, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=20-993&img_size=m,l
