@@ -156,200 +156,7 @@
     <table id = "order" border='1'>
   </body>
   <script>
-    $.when(function(){
-      let table = document.getElementById("order");
-
-      function filter(){
-          let tableWidth = 500;
-          let name = document.getElementById('name').value;
-          let rare = document.getElementById('rare').value;
-          let zokusei = document.getElementById('zokusei').value;
-          let seikaku = document.getElementById('seikaku').value;
-          let skill_who = document.getElementById('skill_who').value;
-          let skill_what = document.getElementById('skill_what').value;
-          let skill_size = document.getElementById('skill_size').value;
-
-          let cRare = document.getElementById('cRare').checked;
-          let cZokusei = document.getElementById('cZokusei').checked;
-          let cSeikaku = document.getElementById('cSeikaku').checked;
-          let cSkill_who = document.getElementById('cSkill_who').checked;
-          let cSkill_what = document.getElementById('cSkill_what').checked;
-          let cSkill_size = document.getElementById('cSkill_size').checked;
-          let cSkill_name = document.getElementById('cSkill_name').checked;
-          let cCount1 = document.getElementById('cCount1').checked;
-
-          let tableName = [];
-          tableName["name"] = 2;
-          tableName["rare"] = 3;
-          tableName["zokusei"] = 4;
-          tableName["seikaku"] = 5;
-          tableName["skill_who"] = 6;
-          tableName["skill_what"] = 7;
-          tableName["skill_size"] = 8;
-          tableName["skill_name"] = 9;
-          tableName["count"] = 10;
-
-          let th = table.getElementsByTagName('th');
-          let tr = table.getElementsByTagName('tr');
-          let td2 = table.getElementsByTagName('td');
-          for (i = 0; i < th.length; i++){
-              th[i].style.display = '';
-          }
-
-          for (i = 1; i < tr.length; i++){
-              tr[i].style.display = '';
-          }
-
-          for (i = 0; i < td2.length; i++){
-              td2[i].style.display = '';
-          }
-
-          if (name != ''){
-              for (let i = 1; i < tr.length; i++){
-                  let td = tr[i].getElementsByTagName("td");
-                  if (td[ tableName["name"] ].innerHTML.indexOf(name) == -1 && td[ tableName["name"] ].title.indexOf(name) == -1){
-                      tr[i].style.display = "none";
-                  }
-              }
-          }
-
-          if (rare != '*'){
-              for (i = 1; i < tr.length; i++){
-                  let td = tr[i].getElementsByTagName('td');
-                  if (td[ tableName["rare"] ].innerHTML != rare){
-                      tr[i].style.display = "none";
-                  }
-              }
-          }
-
-          if (!cRare){
-              th[ tableName["rare"] ].style.display = "none";
-              for (i = 1; i < tr.length; i++){
-                  let td = tr[i].getElementsByTagName("td");
-                  td[ tableName["rare"] ].style.display = "none";
-              }
-          }else{
-              tableWidth += 100;
-          }
-
-          if (zokusei != '*'){
-              for (i = 1; i < tr.length; i++){
-                  let td = tr[i].getElementsByTagName('td');
-                  if (td[ tableName["zokusei"] ].innerHTML != zokusei){
-                      tr[i].style.display = "none";
-                  }
-              }
-          }
-
-          if (!cZokusei){
-              th[ tableName["zokusei"] ].style.display = "none";
-              for (i = 1; i < tr.length; i++){
-                  let td = tr[i].getElementsByTagName("td");
-                  td[ tableName["zokusei"] ].style.display = "none";
-              }
-          }else{
-              tableWidth += 100;
-          }
-
-          if (seikaku != '*'){
-              for (i = 1; i < tr.length; i++){
-                  let td = tr[i].getElementsByTagName('td');
-                  if (td[ tableName["seikaku"] ].innerHTML != seikaku){
-                      tr[i].style.display = "none";
-                  }
-              }
-          }
-
-          if (!cSeikaku){
-              th[ tableName["seikaku"] ].style.display = "none";
-              for (i = 1; i < tr.length; i++){
-                  let td = tr[i].getElementsByTagName("td");
-                  td[ tableName["seikaku"] ].style.display = "none";
-              }
-          }else{
-              tableWidth += 100;
-          }
-
-          if (skill_who != '*'){
-              for (i = 1; i < tr.length; i++){
-                  let td = tr[i].getElementsByTagName('td');
-                  if (td[ tableName["skill_who"] ].innerHTML != skill_who){
-                      tr[i].style.display = "none";
-                  }
-              }
-          }
-
-          if (!cSkill_who){
-              th[ tableName["skill_who"] ].style.display = "none";
-              for (i = 1; i < tr.length; i++){
-                  let td = tr[i].getElementsByTagName("td");
-                  td[ tableName["skill_who"] ].style.display = "none";
-              }
-          }else{
-              tableWidth += 100;
-          }
-
-          if (skill_what != '*'){
-              for (i = 1; i < tr.length; i++){
-                  let td = tr[i].getElementsByTagName('td');
-                  if (td[ tableName["skill_what"] ].innerHTML != skill_what){
-                      tr[i].style.display = "none";
-                  }
-              }
-          }
-
-          if (!cSkill_what){
-              th[ tableName["skill_what"] ].style.display = "none";
-              for (i = 1; i < tr.length; i++){
-                  let td = tr[i].getElementsByTagName("td");
-                  td[ tableName["skill_what"] ].style.display = "none";
-              }
-          }else{
-              tableWidth += 100;
-          }
-
-          if (skill_size != '*'){
-              for (i = 1; i < tr.length; i++){
-                  let td = tr[i].getElementsByTagName('td');
-                  if (td[ tableName["skill_size"] ].innerHTML != skill_size){
-                      tr[i].style.display = "none";
-                  }
-              }
-          }
-
-          if (!cSkill_size){
-              th[ tableName["skill_size"] ].style.display = "none";
-              for (i = 1; i < tr.length; i++){
-                  let td = tr[i].getElementsByTagName("td");
-                  td[ tableName["skill_size"] ].style.display = "none";
-              }
-          }else{
-              tableWidth += 100;
-          }
-
-          if (!cSkill_name){
-              th[ tableName["skill_name"] ].style.display = "none";
-              for (i = 1; i < tr.length; i++){
-                  let td = tr[i].getElementsByTagName("td");
-                  td[ tableName["skill_name"] ].style.display = "none";
-              }
-          }else{
-              tableWidth += 200;
-          }
-
-          if (cCount1){
-              for (i = 1; i < tr.length; i++){
-                  let td = tr[i].getElementsByTagName('td');
-                  if (td[ tableName["count"] ].innerHTML == 1){
-                      tr[i].style.display = "none";
-                  }
-              }
-          }
-          table.style.width = tableWidth + "px";
-      }
-      filter();
-      table.style.display = "";
-    }).done(function(){
+    $(document).ready(function(){
       $("#order").append("<tr><th>番号</th> <th>リスト順</th> <th>名前</th> <th>レア度</th> <th>属性</th> <th>性格</th> <th>スキル範囲</th> <th>スキル内容</th> <th>スキル規模</th> <th>スキル名</th> <th>カード個数</th> <th>URL移動</th></tr>");
         $.get("yandemicList.txt", function(data){
           var lines = data.split("\n");
@@ -360,7 +167,201 @@
             }
           });
         });
-      })
+      });
     });
+    /*
+    let table = document.getElementById("order");
+
+    function filter(){
+        let tableWidth = 500;
+        let name = document.getElementById('name').value;
+        let rare = document.getElementById('rare').value;
+        let zokusei = document.getElementById('zokusei').value;
+        let seikaku = document.getElementById('seikaku').value;
+        let skill_who = document.getElementById('skill_who').value;
+        let skill_what = document.getElementById('skill_what').value;
+        let skill_size = document.getElementById('skill_size').value;
+
+        let cRare = document.getElementById('cRare').checked;
+        let cZokusei = document.getElementById('cZokusei').checked;
+        let cSeikaku = document.getElementById('cSeikaku').checked;
+        let cSkill_who = document.getElementById('cSkill_who').checked;
+        let cSkill_what = document.getElementById('cSkill_what').checked;
+        let cSkill_size = document.getElementById('cSkill_size').checked;
+        let cSkill_name = document.getElementById('cSkill_name').checked;
+        let cCount1 = document.getElementById('cCount1').checked;
+
+        let tableName = [];
+        tableName["name"] = 2;
+        tableName["rare"] = 3;
+        tableName["zokusei"] = 4;
+        tableName["seikaku"] = 5;
+        tableName["skill_who"] = 6;
+        tableName["skill_what"] = 7;
+        tableName["skill_size"] = 8;
+        tableName["skill_name"] = 9;
+        tableName["count"] = 10;
+
+        let th = table.getElementsByTagName('th');
+        let tr = table.getElementsByTagName('tr');
+        let td2 = table.getElementsByTagName('td');
+        for (i = 0; i < th.length; i++){
+            th[i].style.display = '';
+        }
+
+        for (i = 1; i < tr.length; i++){
+            tr[i].style.display = '';
+        }
+
+        for (i = 0; i < td2.length; i++){
+            td2[i].style.display = '';
+        }
+
+        if (name != ''){
+            for (let i = 1; i < tr.length; i++){
+                let td = tr[i].getElementsByTagName("td");
+                if (td[ tableName["name"] ].innerHTML.indexOf(name) == -1 && td[ tableName["name"] ].title.indexOf(name) == -1){
+                    tr[i].style.display = "none";
+                }
+            }
+        }
+
+        if (rare != '*'){
+            for (i = 1; i < tr.length; i++){
+                let td = tr[i].getElementsByTagName('td');
+                if (td[ tableName["rare"] ].innerHTML != rare){
+                    tr[i].style.display = "none";
+                }
+            }
+        }
+
+        if (!cRare){
+            th[ tableName["rare"] ].style.display = "none";
+            for (i = 1; i < tr.length; i++){
+                let td = tr[i].getElementsByTagName("td");
+                td[ tableName["rare"] ].style.display = "none";
+            }
+        }else{
+            tableWidth += 100;
+        }
+
+        if (zokusei != '*'){
+            for (i = 1; i < tr.length; i++){
+                let td = tr[i].getElementsByTagName('td');
+                if (td[ tableName["zokusei"] ].innerHTML != zokusei){
+                    tr[i].style.display = "none";
+                }
+            }
+        }
+
+        if (!cZokusei){
+            th[ tableName["zokusei"] ].style.display = "none";
+            for (i = 1; i < tr.length; i++){
+                let td = tr[i].getElementsByTagName("td");
+                td[ tableName["zokusei"] ].style.display = "none";
+            }
+        }else{
+            tableWidth += 100;
+        }
+
+        if (seikaku != '*'){
+            for (i = 1; i < tr.length; i++){
+                let td = tr[i].getElementsByTagName('td');
+                if (td[ tableName["seikaku"] ].innerHTML != seikaku){
+                    tr[i].style.display = "none";
+                }
+            }
+        }
+
+        if (!cSeikaku){
+            th[ tableName["seikaku"] ].style.display = "none";
+            for (i = 1; i < tr.length; i++){
+                let td = tr[i].getElementsByTagName("td");
+                td[ tableName["seikaku"] ].style.display = "none";
+            }
+        }else{
+            tableWidth += 100;
+        }
+
+        if (skill_who != '*'){
+            for (i = 1; i < tr.length; i++){
+                let td = tr[i].getElementsByTagName('td');
+                if (td[ tableName["skill_who"] ].innerHTML != skill_who){
+                    tr[i].style.display = "none";
+                }
+            }
+        }
+
+        if (!cSkill_who){
+            th[ tableName["skill_who"] ].style.display = "none";
+            for (i = 1; i < tr.length; i++){
+                let td = tr[i].getElementsByTagName("td");
+                td[ tableName["skill_who"] ].style.display = "none";
+            }
+        }else{
+            tableWidth += 100;
+        }
+
+        if (skill_what != '*'){
+            for (i = 1; i < tr.length; i++){
+                let td = tr[i].getElementsByTagName('td');
+                if (td[ tableName["skill_what"] ].innerHTML != skill_what){
+                    tr[i].style.display = "none";
+                }
+            }
+        }
+
+        if (!cSkill_what){
+            th[ tableName["skill_what"] ].style.display = "none";
+            for (i = 1; i < tr.length; i++){
+                let td = tr[i].getElementsByTagName("td");
+                td[ tableName["skill_what"] ].style.display = "none";
+            }
+        }else{
+            tableWidth += 100;
+        }
+
+        if (skill_size != '*'){
+            for (i = 1; i < tr.length; i++){
+                let td = tr[i].getElementsByTagName('td');
+                if (td[ tableName["skill_size"] ].innerHTML != skill_size){
+                    tr[i].style.display = "none";
+                }
+            }
+        }
+
+        if (!cSkill_size){
+            th[ tableName["skill_size"] ].style.display = "none";
+            for (i = 1; i < tr.length; i++){
+                let td = tr[i].getElementsByTagName("td");
+                td[ tableName["skill_size"] ].style.display = "none";
+            }
+        }else{
+            tableWidth += 100;
+        }
+
+        if (!cSkill_name){
+            th[ tableName["skill_name"] ].style.display = "none";
+            for (i = 1; i < tr.length; i++){
+                let td = tr[i].getElementsByTagName("td");
+                td[ tableName["skill_name"] ].style.display = "none";
+            }
+        }else{
+            tableWidth += 200;
+        }
+
+        if (cCount1){
+            for (i = 1; i < tr.length; i++){
+                let td = tr[i].getElementsByTagName('td');
+                if (td[ tableName["count"] ].innerHTML == 1){
+                    tr[i].style.display = "none";
+                }
+            }
+        }
+        table.style.width = tableWidth + "px";
+    }
+    filter();
+    table.style.display = "";
+    */
   </script>
 </html>
