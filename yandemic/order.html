@@ -19,129 +19,161 @@
     </script>
   </head>
   <body>
-    名前で探す<br>
-    <input type="text" id="name" oninput="filter()">
-    <hr>
-    並び変え<br>
-    <table>
+      名前で探す<br>
+      <input type = "text" id = "name" oninput='filter()'>
+  <hr>
+  <table>
       <tr>
-          <td>レア度 : </td>
+          <th>項目を表示する</th>
+          <th>並び変え</th>
+      </tr>
+      <tr>
           <td>
-              <select id="rare" style="width:150px" onchange="filter()">
-                  <option value="*">*</option>
-                  <option value="N">N</option>
-                  <option value="R">R</option>
-                  <option value="HR">HR</option>
-                  <option value="SR">SR</option>
+              <label>
+                  <input type = 'checkbox' id = "cRare" onclick='filter()'>レア度
+              </label>
+          </td>
+          <td>
+              <select id = 'rare' style ='width:150px' onchange='filter()'>
+                  <option value = '*'>*</option>
+                  <option value = 'N'>N</option>
+                  <option value = 'R'>R</option>
+                  <option value = 'HR'>HR</option>
+                  <option value = 'SR'>SR</option>
               </select>
           </td>
       </tr>
       <tr>
-          <td>属性 : </td>
           <td>
-              <select id="zokusei" style="width:150px" onchange="filter()">
-                  <option value="*">*</option>
-                  <option value="依存">依存</option>
-                  <option value="執着">執着</option>
-                  <option value="束縛">束縛</option>
-                  <option value="狂気">狂気</option>
-                  <option value="無属">無属</option>
+              <label>
+                  <input type = 'checkbox' id = "cZokusei" onclick='filter()'>属性
+              </label>
+          </td>
+          <td>
+              <select id = 'zokusei' style ='width:150px' onchange='filter()'>
+                  <option value = '*'>*</option>
+                  <option value = '依存'>依存</option>
+                  <option value = '執着'>執着</option>
+                  <option value = '束縛'>束縛</option>
+                  <option value = '狂気'>狂気</option>
+                  <option value = '無属'>無属</option>
               </select>
           </td>
       </tr>
       <tr>
-          <td>性格 : </td>
           <td>
-              <select id="seikaku" style="width:150px" onchange="filter()">
-                  <option value="*">*</option>
-                  <option value="元気">元気</option>
-                  <option value="活発">活発</option>
-                  <option value="清楚">清楚</option>
-                  <option value="癒やし">癒やし</option>
-                  <option value="献身">献身</option>
-                  <option value="陰湿">陰湿</option>
-                  <option value="狡猾">狡猾</option>
-                  <option value="乱暴">乱暴</option>
-                  <option value="凶暴">凶暴</option>
-                  <option value="バカ">バカ</option>
-                  <option value="ドジ">ドジ</option>
-                  <option value="ツンデレ">ツンデレ</option>
-                  <option value="変態">変態</option>
-                  <option value="淫乱">淫乱</option>
-                  <option value="甘えん坊">甘えん坊</option>
-                  <option value="腹黒">腹黒</option>
-                  <option value="ぷんぷん">ぷんぷん</option>
-                  <option value="すきんしっぱー">すきんしっぱー</option>
-                  <option value="抑圧ちゃん">抑圧ちゃん</option>
-                  <option value="怪奇">怪奇</option>
-                  <option value="逆襲">逆襲</option>
+              <label>
+                  <input type = 'checkbox' id = "cSeikaku" onclick='filter()'>性格
+              </label>
+          </td>
+          <td>
+              <select id = 'seikaku' style ='width:150px' onchange='filter()'>
+                  <option value = '*'>*</option>
+                  <option value = '元気'>元気</option>
+                  <option value = '活発'>活発</option>
+                  <option value = '清楚'>清楚</option>
+                  <option value = '癒やし'>癒やし</option>
+                  <option value = '献身'>献身</option>
+                  <option value = '陰湿'>陰湿</option>
+                  <option value = '狡猾'>狡猾</option>
+                  <option value = '乱暴'>乱暴</option>
+                  <option value = '凶暴'>凶暴</option>
+                  <option value = 'バカ'>バカ</option>
+                  <option value = 'ドジ'>ドジ</option>
+                  <option value = 'ツンデレ'>ツンデレ</option>
+                  <option value = '変態'>変態</option>
+                  <option value = '淫乱'>淫乱</option>
+                  <option value = '甘えん坊'>甘えん坊</option>
+                  <option value = '腹黒'>腹黒</option>
+                  <option value = 'ぷんぷん'>ぷんぷん</option>
+                  <option value = 'すきんしっぱー'>すきんしっぱー</option>
+                  <option value = '抑圧ちゃん'>抑圧ちゃん</option>
+                  <option value = '怪奇'>怪奇</option>
+                  <option value = '逆襲'>逆襲</option>
               </select>
           </td>
       </tr>
       <tr>
-          <td>スキル範囲 : </td>
           <td>
-              <select id="skill_who" style="width:150px" onchange="filter()">
-                  <option value="*">*</option>
-                  <option value="自">自</option>
-                  <option value="全">全</option>
-                  <option value="単">単</option>
-                  <option value="敵">敵</option>
-                  <option value="敵全">敵全</option>
-                  <option value=""></option>
+              <label>
+                  <input type = 'checkbox' id = "cSkill_who" onclick='filter()'>スキル範囲
+              </label>
+          </td>
+          <td>
+              <select id = 'skill_who' style ='width:150px' onchange='filter()'>
+                  <option value = '*'>*</option>
+                  <option value = '自'>自</option>
+                  <option value = '全'>全</option>
+                  <option value = '単'>単</option>
+                  <option value = '敵'>敵</option>
+                  <option value = '敵全'>敵全</option>
+                  <option value = ''></option>
               </select>
           </td>
       </tr>
       <tr>
-          <td>スキル内容 : </td>
           <td>
-              <select id="skill_what" style="width:150px" onchange="filter()">
-                  <option value="*">*</option>
-                  <option value="攻UP">攻UP</option>
-                  <option value="攻DOWN">攻DOWN</option>
-                  <option value="防UP">防UP</option>
-                  <option value="防DOWN">防DOWN</option>
-                  <option value="狂乱">狂乱</option>
-                  <option value="狡猾">狡猾</option>
-                  <option value="心中">心中</option>
-                  <option value="束縛">束縛</option>
-                  <option value="感染">感染</option>
-                  <option value="監禁">監禁</option>
-                  <option value="献身">献身</option>
+              <label>
+                  <input type = 'checkbox' id = "cSkill_what" onclick='filter()'>スキル内容
+              </label>    
+          </td>
+          <td>
+              <select id = 'skill_what' style ='width:150px' onchange='filter()'>
+                  <option value = '*'>*</option>
+                  <option value = '攻UP'>攻UP</option>
+                  <option value = '攻DOWN'>攻DOWN</option>
+                  <option value = '防UP'>防UP</option>
+                  <option value = '防DOWN'>防DOWN</option>
+                  <option value = '狂乱'>狂乱</option>
+                  <option value = '狡猾'>狡猾</option>
+                  <option value = '心中'>心中</option>
+                  <option value = '束縛'>束縛</option>
+                  <option value = '感染'>感染</option>
+                  <option value = '監禁'>監禁</option>
+                  <option value = '献身'>献身</option>
               </select>
           </td>
       </tr>
       <tr>
-          <td>スキル規模 : </td>
           <td>
-              <select id="skill_size" style="width:150px" onchange="filter()">
-                  <option value="*">*</option>
-                  <option value="小">小</option>
-                  <option value="中">中</option>
-                  <option value="大">大</option>
-                  <option value=""></option>
+              <label>
+                  <input type = 'checkbox' id = "cSkill_size" onclick='filter()'>スキル規模
+              </label>
+          </td>
+          <td>
+              <select id = 'skill_size' style ='width:150px' onchange='filter()'>
+                  <option value = '*'>*</option>
+                  <option value = '小'>小</option>
+                  <option value = '中'>中</option>
+                  <option value = '大'>大</option>
+                  <option value = ''></option>
               </select>
           </td>
       </tr>
       <tr>
-        <td>
-            病化しない<br>
-            キャラを除外する
-        </td>
-        <td>
-            <input type ="checkbox" id = "checkbox" onclick='filter()'>
-        </td>
+          <td colspan="2">
+              <label>
+                  <input type = 'checkbox' id = "cSkill_name" onclick='filter()'>スキル名
+              </label>
+          </td>
       </tr>
-    </table>
-    <hr>
-    <table border="1" id="order">
-    </table>
-  </body>
+      <tr>
+          <td colspan="2">
+              <label>
+                  <input type = 'checkbox' id = "cCount1" onclick='filter()'>病化しない<br>
+                  キャラを除外する
+              </label>
+          </td>
+      </tr>
+  </table>
+  <hr>
+  <table id = "order">
 </html>
 <script>
     let table = document.getElementById("order");
 
     function filter(){
+        let tableWidth = 500;
         let name = document.getElementById('name').value;
         let rare = document.getElementById('rare').value;
         let zokusei = document.getElementById('zokusei').value;
@@ -149,17 +181,46 @@
         let skill_who = document.getElementById('skill_who').value;
         let skill_what = document.getElementById('skill_what').value;
         let skill_size = document.getElementById('skill_size').value;
-        let checkbox = document.getElementById('checkbox').checked;
+
+        let cRare = document.getElementById('cRare').checked;
+        let cZokusei = document.getElementById('cZokusei').checked;
+        let cSeikaku = document.getElementById('cSeikaku').checked;
+        let cSkill_who = document.getElementById('cSkill_who').checked;
+        let cSkill_what = document.getElementById('cSkill_what').checked;
+        let cSkill_size = document.getElementById('cSkill_size').checked;
+        let cSkill_name = document.getElementById('cSkill_name').checked;
+        let cCount1 = document.getElementById('cCount1').checked;
+
+        let tableName = [];
+        tableName["name"] = 2;
+        tableName["rare"] = 3;
+        tableName["zokusei"] = 4;
+        tableName["seikaku"] = 5;
+        tableName["skill_who"] = 6;
+        tableName["skill_what"] = 7;
+        tableName["skill_size"] = 8;
+        tableName["skill_name"] = 9;
+        tableName["count"] = 10;
         
+        let th = table.getElementsByTagName('th');
         let tr = table.getElementsByTagName('tr');
+        let td2 = table.getElementsByTagName('td');
+        for (i = 0; i < th.length; i++){
+            th[i].style.display = '';
+        }
+
         for (i = 1; i < tr.length; i++){
             tr[i].style.display = '';
+        }
+
+        for (i = 0; i < td2.length; i++){
+            td2[i].style.display = '';
         }
 
         if (name != ''){
             for (let i = 1; i < tr.length; i++){
                 let td = tr[i].getElementsByTagName("td");
-                if (td[2].innerHTML.indexOf(name) == -1 && td[2].title.indexOf(name) == -1){
+                if (td[ tableName["name"] ].innerHTML.indexOf(name) == -1 && td[ tableName["name"] ].title.indexOf(name) == -1){
                     tr[i].style.display = "none";
                 }
             }
@@ -168,64 +229,137 @@
         if (rare != '*'){
             for (i = 1; i < tr.length; i++){
                 let td = tr[i].getElementsByTagName('td');
-                if (td[3].innerHTML != rare){
+                if (td[ tableName["rare"] ].innerHTML != rare){
                     tr[i].style.display = "none";
                 }
             }
+        }
+
+        if (!cRare){
+            th[ tableName["rare"] ].style.display = "none";
+            for (i = 1; i < tr.length; i++){
+                let td = tr[i].getElementsByTagName("td");
+                td[ tableName["rare"] ].style.display = "none";
+            }
+        }else{
+            tableWidth += 100;
         }
 
         if (zokusei != '*'){
             for (i = 1; i < tr.length; i++){
                 let td = tr[i].getElementsByTagName('td');
-                if (td[4].innerHTML != zokusei){
+                if (td[ tableName["zokusei"] ].innerHTML != zokusei){
                     tr[i].style.display = "none";
                 }
             }
+        }
+
+        if (!cZokusei){
+            th[ tableName["zokusei"] ].style.display = "none";
+            for (i = 1; i < tr.length; i++){
+                let td = tr[i].getElementsByTagName("td");
+                td[ tableName["zokusei"] ].style.display = "none";
+            }
+        }else{
+            tableWidth += 100;
         }
 
         if (seikaku != '*'){
             for (i = 1; i < tr.length; i++){
                 let td = tr[i].getElementsByTagName('td');
-                if (td[5].innerHTML != seikaku){
+                if (td[ tableName["seikaku"] ].innerHTML != seikaku){
                     tr[i].style.display = "none";
                 }
             }
+        }
+
+        if (!cSeikaku){
+            th[ tableName["seikaku"] ].style.display = "none";
+            for (i = 1; i < tr.length; i++){
+                let td = tr[i].getElementsByTagName("td");
+                td[ tableName["seikaku"] ].style.display = "none";
+            }
+        }else{
+            tableWidth += 100;
         }
 
         if (skill_who != '*'){
             for (i = 1; i < tr.length; i++){
                 let td = tr[i].getElementsByTagName('td');
-                if (td[6].innerHTML != skill_who){
+                if (td[ tableName["skill_who"] ].innerHTML != skill_who){
                     tr[i].style.display = "none";
                 }
             }
+        }
+
+        if (!cSkill_who){
+            th[ tableName["skill_who"] ].style.display = "none";
+            for (i = 1; i < tr.length; i++){
+                let td = tr[i].getElementsByTagName("td");
+                td[ tableName["skill_who"] ].style.display = "none";
+            }
+        }else{
+            tableWidth += 100;
         }
 
         if (skill_what != '*'){
             for (i = 1; i < tr.length; i++){
                 let td = tr[i].getElementsByTagName('td');
-                if (td[7].innerHTML != skill_what){
+                if (td[ tableName["skill_what"] ].innerHTML != skill_what){
                     tr[i].style.display = "none";
                 }
             }
         }
 
+        if (!cSkill_what){
+            th[ tableName["skill_what"] ].style.display = "none";
+            for (i = 1; i < tr.length; i++){
+                let td = tr[i].getElementsByTagName("td");
+                td[ tableName["skill_what"] ].style.display = "none";
+            }
+        }else{
+            tableWidth += 100;
+        }
+
         if (skill_size != '*'){
             for (i = 1; i < tr.length; i++){
                 let td = tr[i].getElementsByTagName('td');
-                if (td[8].innerHTML != skill_size){
+                if (td[ tableName["skill_size"] ].innerHTML != skill_size){
                     tr[i].style.display = "none";
                 }
             }
         }
-        
-        if (checkbox){
+
+        if (!cSkill_size){
+            th[ tableName["skill_size"] ].style.display = "none";
+            for (i = 1; i < tr.length; i++){
+                let td = tr[i].getElementsByTagName("td");
+                td[ tableName["skill_size"] ].style.display = "none";
+            }
+        }else{
+            tableWidth += 100;
+        }
+
+        if (!cSkill_name){
+            th[ tableName["skill_name"] ].style.display = "none";
+            for (i = 1; i < tr.length; i++){
+                let td = tr[i].getElementsByTagName("td");
+                td[ tableName["skill_name"] ].style.display = "none";
+            }
+        }else{
+            tableWidth += 200;
+        }
+
+        if (cCount1){
             for (i = 1; i < tr.length; i++){
                 let td = tr[i].getElementsByTagName('td');
-                if (td[10].innerHTML == 1){
+                if (td[ tableName["count"] ].innerHTML == 1){
                     tr[i].style.display = "none";
                 }
             }
         }
+        table.style.width = tableWidth + "px";
     }
+    filter();
+    table.style.display = "";
 </script>
