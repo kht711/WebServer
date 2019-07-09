@@ -154,8 +154,25 @@
     </table>
     <hr>
     <table id = "order" border='1'>
+      <tr>
+        <th>番号</th>
+        <th>リスト順</th>
+        <th>名前</th>
+        <th>レア度</th>
+        <th>属性</th>
+        <th>性格</th>
+        <th>スキル範囲</th>
+        <th>スキル内容</th>
+        <th>スキル規模</th>
+        <th>スキル名</th>
+        <th>カード個数</th>
+        <th>URL移動</th>
+      </tr>
+    </table>
   </body>
   <script>
+    let table = document.getElementById("order");
+    
     function readTextFile(file){
       var rawFile = new XMLHttpRequest();
       rawFile.open("GET", file, false);
@@ -163,16 +180,33 @@
         if(rawFile.readyState === 4){
           if(rawFile.status === 200 || rawFile.status == 0){
             var allText = rawFile.responseText;
-            alert(allText);
+            TableInput(allText);
           }
         }
       };
       rawFile.send(null);
     }
-    
     readTextFile("./yandemicList.txt");
+    
+    function TableInput(allText){
+      let rows = allText.split("\n");
+      for (i = 0; i < rows.length; i++){
+        let cols = rows[i].split(", ");
+        let tr = document.createElement('tr');
+        table.appendChild(tr);
+        for (j = 0; j < cols.length; j++){
+          if (j == 3){
+            let td = tr.getElementByTagName('td');
+            td[td.length-1].title = cols[j];
+          }else{
+            let td = document.createElement('td');
+            tr.appendChild(td);
+            td.innerHTML = cols[j];
+          }
+        }
+      }
+    }
     /*
-    let table = document.getElementById("order");
 
     function filter(){
         let tableWidth = 500;
