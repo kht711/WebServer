@@ -4,159 +4,8 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <script src="./jquery-3.4.1.js"></script>
   </head>
-  <body>
-    名前で探す<br>
-    <input type = "text" id = "name" oninput='filter()'>
-    <hr>
-    <table>
-        <tr>
-            <th>項目を表示する</th>
-            <th>並び変え</th>
-        </tr>
-        <tr>
-            <td>
-                <label>
-                    <input type = 'checkbox' id = "cRare" onclick='filter()'>レア度
-                </label>
-            </td>
-            <td>
-                <select id = 'rare' style ='width:150px' onchange='filter()'>
-                    <option value = '*'>*</option>
-                    <option value = 'N'>N</option>
-                    <option value = 'R'>R</option>
-                    <option value = 'HR'>HR</option>
-                    <option value = 'SR'>SR</option>
-                </select>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <label>
-                    <input type = 'checkbox' id = "cZokusei" onclick='filter()'>属性
-                </label>
-            </td>
-            <td>
-                <select id = 'zokusei' style ='width:150px' onchange='filter()'>
-                    <option value = '*'>*</option>
-                    <option value = '依存'>依存</option>
-                    <option value = '執着'>執着</option>
-                    <option value = '束縛'>束縛</option>
-                    <option value = '狂気'>狂気</option>
-                    <option value = '無属'>無属</option>
-                </select>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <label>
-                    <input type = 'checkbox' id = "cSeikaku" onclick='filter()'>性格
-                </label>
-            </td>
-            <td>
-                <select id = 'seikaku' style ='width:150px' onchange='filter()'>
-                    <option value = '*'>*</option>
-                    <option value = '元気'>元気</option>
-                    <option value = '活発'>活発</option>
-                    <option value = '清楚'>清楚</option>
-                    <option value = '癒やし'>癒やし</option>
-                    <option value = '献身'>献身</option>
-                    <option value = '陰湿'>陰湿</option>
-                    <option value = '狡猾'>狡猾</option>
-                    <option value = '乱暴'>乱暴</option>
-                    <option value = '凶暴'>凶暴</option>
-                    <option value = 'バカ'>バカ</option>
-                    <option value = 'ドジ'>ドジ</option>
-                    <option value = 'ツンデレ'>ツンデレ</option>
-                    <option value = '変態'>変態</option>
-                    <option value = '淫乱'>淫乱</option>
-                    <option value = '甘えん坊'>甘えん坊</option>
-                    <option value = '腹黒'>腹黒</option>
-                    <option value = 'ぷんぷん'>ぷんぷん</option>
-                    <option value = 'すきんしっぱー'>すきんしっぱー</option>
-                    <option value = '抑圧ちゃん'>抑圧ちゃん</option>
-                    <option value = '怪奇'>怪奇</option>
-                    <option value = '逆襲'>逆襲</option>
-                </select>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <label>
-                    <input type = 'checkbox' id = "cSkill_who" onclick='filter()'>スキル範囲
-                </label>
-            </td>
-            <td>
-                <select id = 'skill_who' style ='width:150px' onchange='filter()'>
-                    <option value = '*'>*</option>
-                    <option value = '自'>自</option>
-                    <option value = '全'>全</option>
-                    <option value = '単'>単</option>
-                    <option value = '敵'>敵</option>
-                    <option value = '敵全'>敵全</option>
-                    <option value = ''></option>
-                </select>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <label>
-                    <input type = 'checkbox' id = "cSkill_what" onclick='filter()'>スキル内容
-                </label>    
-            </td>
-            <td>
-                <select id = 'skill_what' style ='width:150px' onchange='filter()'>
-                    <option value = '*'>*</option>
-                    <option value = '攻UP'>攻UP</option>
-                    <option value = '攻DOWN'>攻DOWN</option>
-                    <option value = '防UP'>防UP</option>
-                    <option value = '防DOWN'>防DOWN</option>
-                    <option value = '狂乱'>狂乱</option>
-                    <option value = '狡猾'>狡猾</option>
-                    <option value = '心中'>心中</option>
-                    <option value = '束縛'>束縛</option>
-                    <option value = '感染'>感染</option>
-                    <option value = '監禁'>監禁</option>
-                    <option value = '献身'>献身</option>
-                </select>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <label>
-                    <input type = 'checkbox' id = "cSkill_size" onclick='filter()'>スキル規模
-                </label>
-            </td>
-            <td>
-                <select id = 'skill_size' style ='width:150px' onchange='filter()'>
-                    <option value = '*'>*</option>
-                    <option value = '小'>小</option>
-                    <option value = '中'>中</option>
-                    <option value = '大'>大</option>
-                    <option value = ''></option>
-                </select>
-            </td>
-        </tr>
-        <tr>
-            <td colspan="2">
-                <label>
-                    <input type = 'checkbox' id = "cSkill_name" onclick='filter()'>スキル名
-                </label>
-            </td>
-        </tr>
-        <tr>
-            <td colspan="2">
-                <label>
-                    <input type = 'checkbox' id = "cCount1" onclick='filter()'>病化しない<br>
-                    キャラを除外する
-                </label>
-            </td>
-        </tr>
-    </table>
-    <hr>
-    <table id = "order" border='1'>
-  </body>
   <script>
-    $(document).ready(function (){
+    $.when( $(document).ready(function (){
       $("#order").append("<tr><th>番号</th> <th>リスト順</th> <th>名前</th> <th>レア度</th> <th>属性</th> <th>性格</th> <th>スキル範囲</th> <th>スキル内容</th> <th>スキル規模</th> <th>スキル名</th> <th>カード個数</th> <th>URL移動</th></tr>");
       $.get("yandemicList.txt", function(data){
         var lines = data.split("\n");
@@ -167,7 +16,7 @@
           }
         });
       });
-    }).done(function(){
+    }) ).done(function(){
 
       let table = document.getElementById("order");
 
@@ -363,4 +212,155 @@
       table.style.display = "";
     });
   </script>
+  <body>
+    名前で探す<br>
+    <input type = "text" id = "name" oninput='filter()'>
+    <hr>
+    <table>
+        <tr>
+            <th>項目を表示する</th>
+            <th>並び変え</th>
+        </tr>
+        <tr>
+            <td>
+                <label>
+                    <input type = 'checkbox' id = "cRare" onclick='filter()'>レア度
+                </label>
+            </td>
+            <td>
+                <select id = 'rare' style ='width:150px' onchange='filter()'>
+                    <option value = '*'>*</option>
+                    <option value = 'N'>N</option>
+                    <option value = 'R'>R</option>
+                    <option value = 'HR'>HR</option>
+                    <option value = 'SR'>SR</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>
+                    <input type = 'checkbox' id = "cZokusei" onclick='filter()'>属性
+                </label>
+            </td>
+            <td>
+                <select id = 'zokusei' style ='width:150px' onchange='filter()'>
+                    <option value = '*'>*</option>
+                    <option value = '依存'>依存</option>
+                    <option value = '執着'>執着</option>
+                    <option value = '束縛'>束縛</option>
+                    <option value = '狂気'>狂気</option>
+                    <option value = '無属'>無属</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>
+                    <input type = 'checkbox' id = "cSeikaku" onclick='filter()'>性格
+                </label>
+            </td>
+            <td>
+                <select id = 'seikaku' style ='width:150px' onchange='filter()'>
+                    <option value = '*'>*</option>
+                    <option value = '元気'>元気</option>
+                    <option value = '活発'>活発</option>
+                    <option value = '清楚'>清楚</option>
+                    <option value = '癒やし'>癒やし</option>
+                    <option value = '献身'>献身</option>
+                    <option value = '陰湿'>陰湿</option>
+                    <option value = '狡猾'>狡猾</option>
+                    <option value = '乱暴'>乱暴</option>
+                    <option value = '凶暴'>凶暴</option>
+                    <option value = 'バカ'>バカ</option>
+                    <option value = 'ドジ'>ドジ</option>
+                    <option value = 'ツンデレ'>ツンデレ</option>
+                    <option value = '変態'>変態</option>
+                    <option value = '淫乱'>淫乱</option>
+                    <option value = '甘えん坊'>甘えん坊</option>
+                    <option value = '腹黒'>腹黒</option>
+                    <option value = 'ぷんぷん'>ぷんぷん</option>
+                    <option value = 'すきんしっぱー'>すきんしっぱー</option>
+                    <option value = '抑圧ちゃん'>抑圧ちゃん</option>
+                    <option value = '怪奇'>怪奇</option>
+                    <option value = '逆襲'>逆襲</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>
+                    <input type = 'checkbox' id = "cSkill_who" onclick='filter()'>スキル範囲
+                </label>
+            </td>
+            <td>
+                <select id = 'skill_who' style ='width:150px' onchange='filter()'>
+                    <option value = '*'>*</option>
+                    <option value = '自'>自</option>
+                    <option value = '全'>全</option>
+                    <option value = '単'>単</option>
+                    <option value = '敵'>敵</option>
+                    <option value = '敵全'>敵全</option>
+                    <option value = ''></option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>
+                    <input type = 'checkbox' id = "cSkill_what" onclick='filter()'>スキル内容
+                </label>    
+            </td>
+            <td>
+                <select id = 'skill_what' style ='width:150px' onchange='filter()'>
+                    <option value = '*'>*</option>
+                    <option value = '攻UP'>攻UP</option>
+                    <option value = '攻DOWN'>攻DOWN</option>
+                    <option value = '防UP'>防UP</option>
+                    <option value = '防DOWN'>防DOWN</option>
+                    <option value = '狂乱'>狂乱</option>
+                    <option value = '狡猾'>狡猾</option>
+                    <option value = '心中'>心中</option>
+                    <option value = '束縛'>束縛</option>
+                    <option value = '感染'>感染</option>
+                    <option value = '監禁'>監禁</option>
+                    <option value = '献身'>献身</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>
+                    <input type = 'checkbox' id = "cSkill_size" onclick='filter()'>スキル規模
+                </label>
+            </td>
+            <td>
+                <select id = 'skill_size' style ='width:150px' onchange='filter()'>
+                    <option value = '*'>*</option>
+                    <option value = '小'>小</option>
+                    <option value = '中'>中</option>
+                    <option value = '大'>大</option>
+                    <option value = ''></option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <label>
+                    <input type = 'checkbox' id = "cSkill_name" onclick='filter()'>スキル名
+                </label>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <label>
+                    <input type = 'checkbox' id = "cCount1" onclick='filter()'>病化しない<br>
+                    キャラを除外する
+                </label>
+            </td>
+        </tr>
+    </table>
+    <hr>
+    <table id = "order" border='1'>
+  </body>
 </html>
