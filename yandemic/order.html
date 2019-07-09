@@ -201,7 +201,11 @@
           }else{
             let td = document.createElement('td');
             tr.appendChild(td);
-            td.innerHTML = cols[j];
+            if (j == cols.length - 1){
+              td.innerHTML = "<a href = '" + cols[j] + "'>移動</a>";
+            }else{
+              td.innerHTML = cols[j];
+            }
           }
         }
       }
