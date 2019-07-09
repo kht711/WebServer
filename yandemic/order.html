@@ -190,7 +190,7 @@
     
     function TableInput(allText){
       let rows = allText.split("\n");
-      for (i = 0; i < rows.length; i++){
+      for (i = 0; i < rows.length - 1; i++){
         let cols = rows[i].split(", ");
         let tr = document.createElement('tr');
         table.appendChild(tr);
