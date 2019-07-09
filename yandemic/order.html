@@ -196,7 +196,7 @@
         table.appendChild(tr);
         for (j = 0; j < cols.length; j++){
           if (j == 3){
-            let td = tr.getElementByTagName('td');
+            let td = tr.getElementsByTagName('td');
             td[td.length-1].title = cols[j];
           }else{
             let td = document.createElement('td');
