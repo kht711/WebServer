@@ -156,13 +156,21 @@
     <table id = "order" border='1'>
   </body>
   <script>
-    var yandemicFile = new File("./yandemicList.txt");
-    var reader = new FileReader();
-    reader.onload = function(){
-      alert("File read!"); 
+    function readTextFile(file){
+      var rawFile = new XMLHttpRequest();
+      rawFile.open("GET", file, false);
+      rawFile.onreadystatechange = function (){
+        if(rawFile.readyState === 4){
+          if(rawFile.status === 200 || rawFile.status == 0){
+            var allText = rawFile.responseText;
+            alert(allText);
+          }
+        }
+      };
+      rawFile.send(null);
     }
     
-    reader.readAsText(yandemicFile, "UTF-8");
+    readTextFile("./yandemicList.txt");
     /*
     let table = document.getElementById("order");
 
