@@ -1004,5 +1004,7 @@
 979, 3431, 豆井戸 妃, まめいど　きさき, HR, 狂気, 狡猾, 自, 狂乱, 中, 愛しい者のためになら, 4, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=20-989&img_size=m,l
 980, 3435, 【人魚】小鈴, にんぎょ こすず, HR, 依存, 甘えん坊, 自, 防UP, 大, ふみゅ？人魚？王子様？ふみゅ！？, 4, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=20-990&img_size=m,l
 981, 3439, 豆井戸 姫, まめいど ひめ, HR, 執着, 抑圧ちゃん, 全, 攻UP, 大, ずっとずっと大好きです, 4, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=20-991&img_size=m,l
-998, 3443, 【USA】KASUMI NISHINA , ゆーえすえー かすみ にしな, HR, 狂気, 乱暴, 自, 狂乱, 大, Deadication, 4, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=20-992&img_size=m,l
-999, 3447, 【科学者】絵路 創 , かがくしゃ かいろ はじめ, HR, 無属, 逆襲, 自, 狂乱, 大, 最高の『共犯者』, 4, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=20-993&img_size=m,l
+982, 3443, 【浴衣】三島 夏織, ゆかた みしま かおり, HR, 依存, 癒やし, 全, 防UP, 大, 来年も一緒に花火見ようね♪, 4, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=20-992&img_size=m,l
+983, 3447, 【浴衣】天障陰 椿, ゆかた てんしょういん つばき, HR, 束縛, 清楚, 自, 防UP, 大, この瞬間が、永遠なら…, 4, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=20-993&img_size=m,l
+998, 3451, 【USA】KASUMI NISHINA , ゆーえすえー かすみ にしな, HR, 狂気, 乱暴, 自, 狂乱, 大, Deadication, 4, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=20-994&img_size=m,l
+999, 3455, 【科学者】絵路 創 , かがくしゃ かいろ はじめ, HR, 無属, 逆襲, 自, 狂乱, 大, 最高の『共犯者』, 4, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=20-995&img_size=m,l
