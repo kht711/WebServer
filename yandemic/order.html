@@ -7,6 +7,9 @@
   <body>
     名前で探す<br>
     <input type = "text" id = "name" oninput='filter()'>
+    <select id = "origin" style = "width:150px" onchange="filter()">
+        <option value = "*">*</option>
+    </select>
     <hr>
     <table>
         <tr>
@@ -158,6 +161,7 @@
         <th>番号</th>
         <th>リスト順</th>
         <th>名前</th>
+        <th>関連</th>
         <th>レア度</th>
         <th>属性</th>
         <th>性格</th>
@@ -210,10 +214,54 @@
         }
       }
     }
+    
+    let tableName = [];
+    tableName["no"] = 0;
+    tableName["name"] = 2;
+    tableName["origin"] = 3;
+    tableName["rare"] = 4;
+    tableName["zokusei"] = 5;
+    tableName["seikaku"] = 6;
+    tableName["skill_who"] = 7;
+    tableName["skill_what"] = 8;
+    tableName["skill_size"] = 9;
+    tableName["skill_name"] = 10;
+    tableName["count"] = 11;
+    
+    let originList = [];
+    let number = 0;
+    let tr = table.getElementsByTagName('tr');
+    for (i = 1; i < tr.length; i++){
+        let td = tr[i].getElementsByTagName('td');
+        if (td[ tableName["no"] ].innerHTML == number){
+            continue;
+        }else{
+            number = td[ tableName["no"] ].innerHTML;
+        }
+
+        let getElement = originList.find(originList => originList.name == td[ tableName["origin"] ].innerHTML);
+        if (td[ tableName["origin"] ].innerHTML == "N/A"){
+            continue;
+        }else if(getElement == undefined){
+            originList.push({"name": td[ tableName["origin"] ].innerHTML, "count":1});
+        }else{
+            getElement.count++;
+        }
+    }
+    originList.sort(function(a, b){return b.count - a.count;});
+    
+    let origin = document.getElementById('origin');
+    for (i = 0; i < originList.length; i++){
+        let option = document.createElement("option");
+        option.text = originList[i].name + "(" + originList[i].count + ")";
+        option.value = originList[i].name;
+        origin.add(option);
+    }
 
     function filter(){
         let tableWidth = 500;
         let name = document.getElementById('name').value;
+        let origin = document.getElementById('origin').value
         let rare = document.getElementById('rare').value;
         let zokusei = document.getElementById('zokusei').value;
         let seikaku = document.getElementById('seikaku').value;
@@ -229,17 +277,6 @@
         let cSkill_size = document.getElementById('cSkill_size').checked;
         let cSkill_name = document.getElementById('cSkill_name').checked;
         let cCount1 = document.getElementById('cCount1').checked;
-
-        let tableName = [];
-        tableName["name"] = 2;
-        tableName["rare"] = 3;
-        tableName["zokusei"] = 4;
-        tableName["seikaku"] = 5;
-        tableName["skill_who"] = 6;
-        tableName["skill_what"] = 7;
-        tableName["skill_size"] = 8;
-        tableName["skill_name"] = 9;
-        tableName["count"] = 10;
 
         let th = table.getElementsByTagName('th');
         let tr = table.getElementsByTagName('tr');
@@ -260,6 +297,15 @@
             for (let i = 1; i < tr.length; i++){
                 let td = tr[i].getElementsByTagName("td");
                 if (td[ tableName["name"] ].innerHTML.indexOf(name) == -1 && td[ tableName["name"] ].title.indexOf(name) == -1){
+                    tr[i].style.display = "none";
+                }
+            }
+        }
+      
+        if (origin != '*'){
+            for (let i = 1; i < tr.length; i++){
+                let td = tr[i].getElementsByTagName("td");
+                if (td[ tableName["origin"] ].innerHTML != origin){
                     tr[i].style.display = "none";
                 }
             }
