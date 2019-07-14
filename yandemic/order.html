@@ -149,6 +149,13 @@
         <tr>
             <td colspan="2">
                 <label>
+                    <input type = 'checkbox' id = "cOrigin" onclick='filter()'>関連
+                </label>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <label>
                     <input type = 'checkbox' id = "cCount1" onclick='filter()'>病化しない<br>
                     キャラを除外する
                 </label>
@@ -275,6 +282,7 @@
         let cSkill_who = document.getElementById('cSkill_who').checked;
         let cSkill_what = document.getElementById('cSkill_what').checked;
         let cSkill_size = document.getElementById('cSkill_size').checked;
+        let cOrigin = document.getElementById('cOrigin').checked;
         let cSkill_name = document.getElementById('cSkill_name').checked;
         let cCount1 = document.getElementById('cCount1').checked;
 
@@ -433,6 +441,16 @@
             }
         }else{
             tableWidth += 200;
+        }
+      
+        if (!cOrigin){
+            th[ tableName["origin"] ].style.display = "none";
+            for (i = 1; i < tr.length; i++){
+                let td = tr[i].getElementsByTagName("td");
+                td[ tableName["origin"] ].style.display = "none";
+            }
+        }else{
+            tableWidth += 100;
         }
 
         if (cCount1){
