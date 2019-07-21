@@ -1006,5 +1006,11 @@
 981, 3439, 豆井戸 姫, まめいど ひめ, 豆井戸 姫, HR, 執着, 抑圧ちゃん, 全, 攻UP, 大, ずっとずっと大好きです, 4, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=20-991&img_size=m,l
 982, 3443, 【浴衣】三島 夏織, ゆかた みしま かおり, 三島 夏織, HR, 依存, 癒やし, 全, 防UP, 大, 来年も一緒に花火見ようね♪, 4, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=20-992&img_size=m,l
 983, 3447, 【浴衣】天障陰 椿, ゆかた てんしょういん つばき, 天障陰 椿, HR, 束縛, 清楚, 自, 防UP, 大, この瞬間が、永遠なら…, 4, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=20-993&img_size=m,l
-998, 3451, 【USA】KASUMI NISHINA , ゆーえすえー かすみ にしな, 仁科 香澄, HR, 狂気, 乱暴, 自, 狂乱, 大, Deadication, 4, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=20-994&img_size=m,l
-999, 3455, 【科学者】絵路 創 , かがくしゃ かいろ はじめ, 絵路 創, HR, 無属, 逆襲, 自, 狂乱, 大, 最高の『共犯者』, 4, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=20-995&img_size=m,l
+984, 3451, 競坂 泳華, きそいざか えいか, 競坂 泳華, R, 束縛, 腹黒, 敵, 攻DOWN, 中, 機能性も美しさも女性らしさも, 4, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=20-994&img_size=m,l
+985, 3455, 上下 離令, うえした はなれ, 上下 離令, R, 依存, 陰湿, 全, 攻UP, 中, ビキニが一番女を輝かせるのよ！, 4, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=20-995&img_size=m,l
+986, 3459, 仁科家のある夏の日, , N/A, R, *, *, NULL, NULL, NULL, NULL, 1, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=20-996&img_size=m,l
+987, 3460, 高内 風流, たかうち ふうる, 高内 風流, HR, 狂気, ぷんぷん, 自, 攻UP, 大, スク水は世界を救うの！, 4, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=20-997&img_size=m,l
+988, 3464, 【ビキニ】亞沙樹さん, びきに あさきさん, 桐皇 亞沙樹, HR, 狂気, 逆襲, 敵全, 防DOWN, 中, 私の支配力はビーチでも絶対なのよ, 4, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=20-998&img_size=m,l
+989, 3468, 【スク水】柚子峰 色羽, すくみず ゆずみね いろは, 柚子峰 色羽, HR, 依存, 献身, 全, 狡猾, 大, 君の為なら…透けるよ, 4, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=20-999&img_size=m,l
+998, 3472, 【USA】KASUMI NISHINA , ゆーえすえー かすみ にしな, 仁科 香澄, HR, 狂気, 乱暴, 自, 狂乱, 大, Deadication, 4, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=20-1000&img_size=m,l
+999, 3476, 【科学者】絵路 創 , かがくしゃ かいろ はじめ, 絵路 創, HR, 無属, 逆襲, 自, 狂乱, 大, 最高の『共犯者』, 4, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=20-1001&img_size=m,l
