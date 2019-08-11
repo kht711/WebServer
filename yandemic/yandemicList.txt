@@ -1014,8 +1014,8 @@
 989, 3468, 【スク水】柚子峰 色羽, すくみず ゆずみね いろは, 柚子峰 色羽, HR, 依存, 献身, 全, 狡猾, 大, 君の為なら…透けるよ, 4, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=20-999&img_size=m,l
 990, 3472, 白雪姫, しらゆきひめ, 白雪姫, R, 依存, すきんしっぱー, 敵, 攻DOWN, 中, ７人が白雪の全てなのです…, 4, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=22-1&img_size=m,l
 991, 3476, ママハハ, ままはは, ママハハ, R, 束縛, 陰湿, 全, 防UP, 小, 私だけが愛されれればそれでいいの, 4, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=22-2&img_size=m,l
-992, 3480, 赤ずきんの真実, , N/A, R, *, *, NULL, NULL, NULL, NULL, 1, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=22-3&img_size=m,l
-993, 3481, 白雪VS灰かぶり, , N/A, R, *, *, NULL, NULL, NULL, NULL, 1, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=22-4&img_size=m,l
+992, 3480, 赤ずきんの真実, あかずきんのしんじつ, N/A, R, 狂気, 凶暴, 自, 攻UP, 中, ずきんの赤は『あの』赤で出来て…, 1, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=22-3&img_size=m,l
+993, 3481, 白雪VS灰かぶり, しらゆきぶいえすはいかぶり, N/A, R, 狂気, ぷんぷん, 自, 攻UP, 中, プリンセスＶＳプリンセス, 1, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=22-4&img_size=m,l
 994, 3482, ヤンデル, やんでる, ヤンデル, HR, 束縛, 淫乱, 自, 防UP, 大, 愛が世界の全てを制するの…, 4, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=22-5&img_size=m,l
 995, 3486, シンデレラ, しんでれら, シンデレラ, HR, 狂気, 抑圧ちゃん, 敵全, 防DOWN, 中, 街娘にも夢を見させて…, 4, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=22-7&img_size=m,l
 996, 3490, デレーテル, でれーてる, デレーテル, HR, 依存, 変態, 敵全, 攻DOWN, 大, どんなプレイだって大好きだよ♪, 4, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=22-6&img_size=m,l
