@@ -1023,3 +1023,9 @@
 999, 3498, 【科学者】絵路 創 , かがくしゃ かいろ はじめ, 絵路 創, HR, 無属, 逆襲, 自, 狂乱, 大, 最高の『共犯者』, 4, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=22-10&img_size=m,l
 60000, 3533, 星乃こころ, ほしのこころ, 星乃こころ, HR, 狂気, 乱暴, 全, 狂乱, 大, 人生で最大最高の恋したい, 4, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=22-11&img_size=m,l
 60001, 3537, 【ロリ】辻 天嶺, ろり つじ あまね, 辻 天嶺, HR, 執着, 活発, 敵全, 防DOWN, 大, 体だけは売らない。絶対に。, 4, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=22-12&img_size=m,l
+60002, 3541, 【盛夏】天障陰椿, せいか てんしょういんつばき, 天障陰 椿, R, 束縛, 清楚, 敵, 攻DOWN, 中, 兄さんの妹なんかじゃなければ…, 4, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=22-13&img_size=m,l
+60003, 3545, 三島夏織, みしまかおり, 三島 夏織, R, 依存, 癒やし, 全, 防UP, 中, うーん、私に用なんてあるのかな？, 4, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=22-14&img_size=m,l
+60004, 3549, とある三人のやりとり, , N/A, R, *, *, NULL, NULL, NULL, NULL, 1, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=22-15&img_size=m,l
+60005, 3550, 徳田 音絵留, とくだ ねえる, 徳田 音絵留, HR, 執着, 陰湿, 全, 攻UP, 中, 私の『勘』…間違いない…何かある, 4, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=22-16&img_size=m,l
+60006, 3554, 紙代 愛洲, かみしろ あいす, 紙代 愛洲, HR, 狂気, 腹黒, 自, 攻UP, 大, 永遠の美しさを手に入れましょう…, 4, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=22-17&img_size=m,l
+60007, 3558, 追梶 日香, おいかじ にっか, 追梶 日香, HR, 依存, 狡猾, 全, 防UP, 大, 好き好き好き好き好き好き好き好き, 4, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=22-18&img_size=m,l
