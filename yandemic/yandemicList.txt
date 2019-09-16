@@ -1031,7 +1031,7 @@
 60007, 3558, 追梶 日香, おいかじ にっか, 追梶 日香, HR, 依存, 狡猾, 全, 防UP, 大, 好き好き好き好き好き好き好き好き, 4, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=22-18&img_size=m,l
 60008, 3562, 【婦警】灰汁締 舞李, ふけい あくじめ まいり, 灰汁締 舞李, R, 狂気, 陰湿, 自, 攻UP, 中, 追い追われる、それがわたし達だ！, 4, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=22-19&img_size=m,l
 60009, 3566, 【爆警】代名 真糸, ばくけい しろな まいと, 代名 真糸, R, 狂気, 乱暴, 全, 攻UP, 小, 究極の、爆破みぃつけた…！, 4, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=22-20&img_size=m,l
-60010, 3570, 現行犯！？ヤンデレ婦警, , N/A, R, *, *, NULL, NULL, NULL, NULL, 1, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=22-21&img_size=m,l
+60010, 3570, 現行犯！？ヤンデレ婦警, げんこうはん やんでれふけい, N/A, R, 狂気, 凶暴, 全, 防UP, 中, 逮捕だ！爆破だ！公務執行妨害だ！, 1, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=22-21&img_size=m,l
 60011, 3571, 三日月 アム, みかづき あむ, 三日月 アム, HR, 依存, 献身, 敵, 攻DOWN, 大, 私はシステムに従う、ただそれだけ, 4, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=22-22&img_size=m,l
 60012, 3575, 猪口 ミリア, いのくち みりあ, 猪口 ミリア, HR, 執着, ツンデレ, 自, 攻UP, 大, 『ヤンデレ化計画』なんて…！！, 4, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=22-23&img_size=m,l
 60013, 3579, 室崎 クララ, むろざき くらら, 室崎 クララ, HR, 執着, 抑圧ちゃん, 自, 狂乱, 大, 許すまじ、連続ヤンデレ化計画犯め, 4, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=22-24&img_size=m,l
