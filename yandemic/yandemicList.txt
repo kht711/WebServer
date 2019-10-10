@@ -1030,7 +1030,7 @@
 60006, 3554, 紙代 愛洲, かみしろ あいす, 紙代 愛洲, HR, 狂気, 腹黒, 自, 攻UP, 大, 永遠の美しさを手に入れましょう…, 4, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=22-17&img_size=m,l
 60007, 3558, 追梶 日香, おいかじ にっか, 追梶 日香, HR, 依存, 狡猾, 全, 防UP, 大, 好き好き好き好き好き好き好き好き, 4, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=22-18&img_size=m,l
 60008, 3562, 【婦警】灰汁締 舞李, ふけい あくじめ まいり, 灰汁締 舞李, R, 狂気, 陰湿, 自, 攻UP, 中, 追い追われる、それがわたし達だ！, 4, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=22-19&img_size=m,l
-60009, 3566, 【爆警】代名 真糸, ばくけい しろな まいと, 代名 真糸, R, 狂気, 乱暴, 全, 攻UP, 小, 究極の、爆破みぃつけた…！, 4, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=22-20&img_size=m,l
+60009, 3566, 【爆警】代名 真糸, ふけい しろな まいと, 代名 真糸, R, 狂気, 乱暴, 全, 攻UP, 小, 究極の、爆破みぃつけた…！, 4, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=22-20&img_size=m,l
 60010, 3570, 現行犯！？ヤンデレ婦警, げんこうはん やんでれふけい, N/A, R, 狂気, 凶暴, 全, 防UP, 中, 逮捕だ！爆破だ！公務執行妨害だ！, 1, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=22-21&img_size=m,l
 60011, 3571, 三日月 アム, みかづき あむ, 三日月 アム, HR, 依存, 献身, 敵, 攻DOWN, 大, 私はシステムに従う、ただそれだけ, 4, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=22-22&img_size=m,l
 60012, 3575, 猪口 ミリア, いのくち みりあ, 猪口 ミリア, HR, 執着, ツンデレ, 自, 攻UP, 大, 『ヤンデレ化計画』なんて…！！, 4, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=22-23&img_size=m,l
@@ -1041,7 +1041,7 @@
 60017, 3595, 【ゴスロリ】吊原 ひなこ, ごすろり つるしはら ひなこ, 吊原 ひなこ, R, 狂気, 凶暴, 自, 攻UP, 中, これが淑女の証なの。この衣裳が。, 4, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=22-28&img_size=m,l
 60018, 3599, 【ゴスロリ】馬園 絵美, ごすろり うまぞの えみ, 馬園 絵美, R, 依存, 変態, 敵, 攻DOWN, 中, 窮屈最高！目茶目茶大歓迎！！, 4, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=22-29&img_size=m,l
 60019, 3603, 【ゴスロリ】孤月 ひかげ, ごすろり こづき ひかげ, 孤月 ひかげ, R, 束縛, 清楚, 自, 防UP, 中, 『白き魔女の溜息』の『月影』です, 4, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=22-30&img_size=m,l
-60020, 3607, 無明の嘲笑メンバーの会話, , N/A, R, *, *, NULL, NULL, NULL, NULL, 1, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=22-31&img_size=m,l
+60020, 3607, 無明の嘲笑メンバーの会話, ほーぷれす・らふぃんめんばーのかいわ, N/A, R, 狂気, 凶暴, 自, 攻UP, 中, 『無明の嘲笑』こそが唯一の解よ！, 1, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=22-31&img_size=m,l
 60021, 3608, 雪鏡, ゆきかがみ, 雪鏡, HR, 依存, 献身, 敵全, 攻DOWN, 中, 私の人生は白水晶様と共に, 4, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=22-32&img_size=m,l
 60022, 3612, 白水晶, しろすいしょう, 白水晶, HR, 狂気, 逆襲, 敵全, 防DOWN, 中, 化け物に、魔女…どうぞご勝手に…, 4, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=22-33&img_size=m,l
 60023, 3616, 【ゴスロリ】緋色 果音, ごすろり ひいろ かのん, 緋色 果音, HR, 束縛, 献身, 全, 防UP, 大, わたしの全てはあなたの為に, 4, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=22-34&img_size=m,l
