@@ -1045,3 +1045,9 @@
 60021, 3608, 雪鏡, ゆきかがみ, 雪鏡, HR, 依存, 献身, 敵全, 攻DOWN, 中, 私の人生は白水晶様と共に, 4, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=22-32&img_size=m,l
 60022, 3612, 白水晶, しろすいしょう, 白水晶, HR, 狂気, 逆襲, 敵全, 防DOWN, 中, 化け物に、魔女…どうぞご勝手に…, 4, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=22-33&img_size=m,l
 60023, 3616, 【ゴスロリ】緋色 果音, ごすろり ひいろ かのん, 緋色 果音, HR, 束縛, 献身, 全, 防UP, 大, わたしの全てはあなたの為に, 4, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=22-34&img_size=m,l
+60024, 3620, 【逡巡】裁縫 結, しゅんじゅん さいほう むすび, 裁縫 結, R, 執着, 抑圧ちゃん, 敵全, 防DOWN, 中, 本当の私を、教えてあげます, 4, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=22-35&img_size=m,l
+60025, 3624, エロやん緊急子, えろやんきんきゅうこ, エロやん緊急子, R, 執着, ドジ, 全, 攻UP, 中, ハロハロ☆しもしも～♪, 4, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=22-36&img_size=m,l
+60026, 3628, エロやんを好きなJDとJK, , , R, *, *, NULL, NULL, NULL, NULL, 1, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=22-37&img_size=m,l
+60027, 3629, 【嘲弄】才識 香律, ちょうろう さいしき かのり, 才識 香律, HR, 束縛, 陰湿, 全, 防UP, 中, 私より頭がいい男には…, 4, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=22-38&img_size=m,l
+60028, 3633, 【復讐】雛型 つくも, ふくしゅう ひながた つくも, 雛型 つくも, HR, 狂気, 逆襲, 自, 狂乱, 大, わらわを恐れよ！小童め！, 4, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=22-39&img_size=m,l
+60029, 3637, 法条 立華, ほうじょう りっか, 法条 立華, HR, 狂気, 活発, 全, 攻UP, 大, 運命って絶対あると思うんです！, 4, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=22-40&img_size=m,l
