@@ -1047,7 +1047,9 @@
 60023, 3616, 【ゴスロリ】緋色 果音, ごすろり ひいろ かのん, 緋色 果音, HR, 束縛, 献身, 全, 防UP, 大, わたしの全てはあなたの為に, 4, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=22-34&img_size=m,l
 60024, 3620, 【逡巡】裁縫 結, しゅんじゅん さいほう むすび, 裁縫 結, R, 執着, 抑圧ちゃん, 敵全, 防DOWN, 中, 本当の私を、教えてあげます, 4, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=22-35&img_size=m,l
 60025, 3624, エロやん緊急子, えろやんきんきゅうこ, エロやん緊急子, R, 執着, ドジ, 全, 攻UP, 中, ハロハロ☆しもしも～♪, 4, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=22-36&img_size=m,l
-60026, 3628, エロやんを好きなJDとJK, , , R, *, *, NULL, NULL, NULL, NULL, 1, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=22-37&img_size=m,l
+60026, 3628, エロやんを好きなJDとJK, えろやんをすきなじぇいでぃーとじぇいけー, N/A, R, 執着, ぷんぷん, 自, 攻UP, 中, 絵路創が偉大すぎる件について, 1, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=22-37&img_size=m,l
 60027, 3629, 【嘲弄】才識 香律, ちょうろう さいしき かのり, 才識 香律, HR, 束縛, 陰湿, 全, 防UP, 中, 私より頭がいい男には…, 4, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=22-38&img_size=m,l
 60028, 3633, 【復讐】雛型 つくも, ふくしゅう ひながた つくも, 雛型 つくも, HR, 狂気, 逆襲, 自, 狂乱, 大, わらわを恐れよ！小童め！, 4, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=22-39&img_size=m,l
 60029, 3637, 法条 立華, ほうじょう りっか, 法条 立華, HR, 狂気, 活発, 全, 攻UP, 大, 運命って絶対あると思うんです！, 4, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=22-40&img_size=m,l
+60030, 3641, 【ハロウィン】好魅ちゃん, はろうぃん よしみちゃん, 双生 好魅, HR, 執着, 逆襲, 全, 狂乱, 大, ハロウィンこそ楽しみましょう♪, 4, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=22-41&img_size=m,l
+60031, 3645, 【ハロウィン】好愛ちゃん, はろうぃん よしめちゃん, 双生 好愛, HR, 束縛, 甘えん坊, 全, 狡猾, 大, お祭りもお姉様と一緒に…, 4, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=22-42&img_size=m,l
