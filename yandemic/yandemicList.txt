@@ -1055,7 +1055,7 @@
 60031, 3645, 【ハロウィン】好愛ちゃん, はろうぃん よしめちゃん, 双生 好愛, HR, 束縛, 甘えん坊, 全, 狡猾, 大, お祭りもお姉様と一緒に…, 4, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=22-42&img_size=m,l
 60032, 3649, 【ヒロ絶】月影ルナ, ひろぜつ つきかげ るな, 月影ルナ, R, 依存, 狡猾, 敵, 攻DOWN, 中, 女の子は絶対無敵♪, 4, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=22-43&img_size=m,l
 60033, 3653, 【悪の波動】開逆 百乃, あくのはどう あくぎゃく ももの, 開逆 百乃, HR, 執着, ドジ, 全, 攻UP, 中, 真の悪とは、私のことなのだ！, 4, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=22-44&img_size=m,l
-60034, 3657, 悪に染まる二人, , N/A, R, *, *, NULL, NULL, NULL, NULL, 1, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=22-45&img_size=m,l
+60034, 3657, 悪に染まる二人, あくのそまるふたり, N/A, R, 狂気, 凶暴, 敵, 防DOWN, 中, 全ては我らの愛のために, 1, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=22-45&img_size=m,l
 60035, 3658, 【ヒロ絶】イリーナ・サイカワ, ひろぜつ いりーな・さいかわ, イリーナ・サイカワ, HR, 狂気, 逆襲, 自, 攻UP, 大, 私の全てを、この銃弾に…！！, 4, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=22-46&img_size=m,l
 60036, 3662, 【悪の波動】葉加瀬 香樹, あくのはどう はかせきょうじゅ, 葉加瀬 香樹, HR, 狂気, 元気, 全, 攻UP, 中, 気合だ！気合！気合なのだ！, 4, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=22-47&img_size=m,l
 60037, 3666, 【ヒロ絶】三条ミコト, ひろぜつ さんじょう みこと, 三条ミコト, HR, 束縛, 献身, 敵全, 攻DOWN, 大, 優等生の名にかけて！成敗！, 4, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=22-48&img_size=m,l
