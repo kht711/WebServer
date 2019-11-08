@@ -1064,7 +1064,7 @@
 60040, 3678, 嫌い対決頂上決戦！？, , N/A, R, *, *, NULL, NULL, NULL, NULL, 1, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=22-51&img_size=m,l
 60041, 3679, 【ドＳ】千笑様, どえす　ちえみさま, 一捻 千笑, HR, 執着, 陰湿, 敵, 防DOWN, 大, 見るだけで虫唾が走るんだってば！, 4, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=22-52&img_size=m,l
 60042, 3683, 【ドＳ】円様, どえす まどかさま, 多根灯 円, HR, 執着, ツンデレ, 敵全, 防DOWN, 中, この、クソ奴隷が！！！, 4, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=22-53&img_size=m,l
-60043, 3687, 【ドS】色羽様, どえす　いろはさま, 柚子峰 色羽, HR, 依存, 献身, 全, 狡猾, 大, 生徒会長の私にたてつく気？, 4, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=22-54&img_size=m,l
+60043, 3687, 【ドＳ】色羽様, どえす　いろはさま, 柚子峰 色羽, HR, 依存, 献身, 全, 狡猾, 大, 生徒会長の私にたてつく気？, 4, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=22-54&img_size=m,l
 60044, 3691, 【ドＳ】香澄様, どえす かすみさま, 仁科 香澄, HR, 狂気, 抑圧ちゃん, 全, 攻UP, 大, あなたのことなんか、大っ嫌い！, 4, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=22-55&img_size=m,l
 60045, 3695, 【ドＳ】紬さん, どえす つむぎさん, 逢形 紬, HR, 束縛, 献身, 全, 防UP, 大, ご主人様、お返事は？, 4, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=22-56&img_size=m,l
 60046, 3699, メンテちゃん, めんてちゃん, メンテちゃん, HR, 依存, ドジ, 敵全, 攻DOWN, 中, すみません……ごめんなさい……すみません！, 4, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=22-57&img_size=m,l
