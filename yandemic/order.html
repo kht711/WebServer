@@ -1,482 +1,493 @@
 <html>
-  <head>
-    <meta charset="uft-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-  </head>
-  <body>
-    名前で探す<br>
-    <input type = "text" id = "name" oninput='filter()'>
-    <select id = "origin" style = "width:200px" onchange="filter()">
-        <option value = "*">*</option>
-    </select>
-    <hr>
-    <table>
+    <head>
+        <meta charset="uft-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+    </head>
+    <body>
+        名前で探す<br>
+        <input type = "text" id = "name" oninput='filter()'>
+        <select id = "origin" style = "width:200px" onchange="filter()">
+            <option value = "*">*</option>
+        </select>
+        <hr>
+        <table>
+            <tr>
+                <th>項目を表示する</th>
+                <th>並び変え</th>
+            </tr>
+            <tr>
+                <td>
+                    <label>
+                        <input type = 'checkbox' id = "cRare" onclick='filter()'>レア度
+                    </label>
+                </td>
+                <td>
+                    <select id = 'rare' style ='width:150px' onchange='filter()'>
+                        <option value = '*'>*</option>
+                        <option value = 'N'>N</option>
+                        <option value = 'R'>R</option>
+                        <option value = 'HR'>HR</option>
+                        <option value = 'SR'>SR</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>
+                        <input type = 'checkbox' id = "cZokusei" onclick='filter()'>属性
+                    </label>
+                </td>
+                <td>
+                    <select id = 'zokusei' style ='width:150px' onchange='filter()'>
+                        <option value = '*'>*</option>
+                        <option value = '依存'>依存</option>
+                        <option value = '執着'>執着</option>
+                        <option value = '束縛'>束縛</option>
+                        <option value = '狂気'>狂気</option>
+                        <option value = '無属'>無属</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>
+                        <input type = 'checkbox' id = "cSeikaku" onclick='filter()'>性格
+                    </label>
+                </td>
+                <td>
+                    <select id = 'seikaku' style ='width:150px' onchange='filter()'>
+                        <option value = '*'>*</option>
+                        <option value = '元気'>元気</option>
+                        <option value = '活発'>活発</option>
+                        <option value = '清楚'>清楚</option>
+                        <option value = '癒やし'>癒やし</option>
+                        <option value = '献身'>献身</option>
+                        <option value = '陰湿'>陰湿</option>
+                        <option value = '狡猾'>狡猾</option>
+                        <option value = '乱暴'>乱暴</option>
+                        <option value = '凶暴'>凶暴</option>
+                        <option value = 'バカ'>バカ</option>
+                        <option value = 'ドジ'>ドジ</option>
+                        <option value = 'ツンデレ'>ツンデレ</option>
+                        <option value = '変態'>変態</option>
+                        <option value = '淫乱'>淫乱</option>
+                        <option value = '甘えん坊'>甘えん坊</option>
+                        <option value = '腹黒'>腹黒</option>
+                        <option value = 'ぷんぷん'>ぷんぷん</option>
+                        <option value = 'すきんしっぱー'>すきんしっぱー</option>
+                        <option value = '抑圧ちゃん'>抑圧ちゃん</option>
+                        <option value = '怪奇'>怪奇</option>
+                        <option value = '逆襲'>逆襲</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>
+                        <input type = 'checkbox' id = "cSkill_who" onclick='filter()'>スキル範囲
+                    </label>
+                </td>
+                <td>
+                    <select id = 'skill_who' style ='width:150px' onchange='filter()'>
+                        <option value = '*'>*</option>
+                        <option value = '自'>自</option>
+                        <option value = '全'>全</option>
+                        <option value = '単'>単</option>
+                        <option value = '敵'>敵</option>
+                        <option value = '敵全'>敵全</option>
+                        <option value = ''></option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>
+                        <input type = 'checkbox' id = "cSkill_what" onclick='filter()'>スキル内容
+                    </label>    
+                </td>
+                <td>
+                    <select id = 'skill_what' style ='width:150px' onchange='filter()'>
+                        <option value = '*'>*</option>
+                        <option value = '攻UP'>攻UP</option>
+                        <option value = '攻DOWN'>攻DOWN</option>
+                        <option value = '防UP'>防UP</option>
+                        <option value = '防DOWN'>防DOWN</option>
+                        <option value = '狂乱'>狂乱</option>
+                        <option value = '狡猾'>狡猾</option>
+                        <option value = '心中'>心中</option>
+                        <option value = '束縛'>束縛</option>
+                        <option value = '感染'>感染</option>
+                        <option value = '監禁'>監禁</option>
+                        <option value = '献身'>献身</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>
+                        <input type = 'checkbox' id = "cSkill_size" onclick='filter()'>スキル規模
+                    </label>
+                </td>
+                <td>
+                    <select id = 'skill_size' style ='width:150px' onchange='filter()'>
+                        <option value = '*'>*</option>
+                        <option value = '小'>小</option>
+                        <option value = '中'>中</option>
+                        <option value = '大'>大</option>
+                        <option value = ''></option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <label>
+                        <input type = 'checkbox' id = "cSkill_name" onclick='filter()'>スキル名
+                    </label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <label>
+                        <input type = 'checkbox' id = "cOrigin" onclick='filter()'>関連
+                    </label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <label>
+                        <input type = 'checkbox' id = "cCount1" onclick='filter()'>病化しない<br>
+                        キャラを除外する
+                    </label>
+                </td>
+            </tr>
+        </table>
+        <hr>
+        <table id = "order" border='1' style="display:none">
         <tr>
-            <th>項目を表示する</th>
-            <th>並び変え</th>
+            <th>番号</th>
+            <th>リスト順</th>
+            <th>名前</th>
+            <th>関連</th>
+            <th>レア度</th>
+            <th>属性</th>
+            <th>性格</th>
+            <th>スキル範囲</th>
+            <th>スキル内容</th>
+            <th>スキル規模</th>
+            <th>スキル名</th>
+            <th>カード個数</th>
+            <th>イベント・ガチャ</th>
+            <th>出現日付</th>
+            <th>URL移動</th>
         </tr>
-        <tr>
-            <td>
-                <label>
-                    <input type = 'checkbox' id = "cRare" onclick='filter()'>レア度
-                </label>
-            </td>
-            <td>
-                <select id = 'rare' style ='width:150px' onchange='filter()'>
-                    <option value = '*'>*</option>
-                    <option value = 'N'>N</option>
-                    <option value = 'R'>R</option>
-                    <option value = 'HR'>HR</option>
-                    <option value = 'SR'>SR</option>
-                </select>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <label>
-                    <input type = 'checkbox' id = "cZokusei" onclick='filter()'>属性
-                </label>
-            </td>
-            <td>
-                <select id = 'zokusei' style ='width:150px' onchange='filter()'>
-                    <option value = '*'>*</option>
-                    <option value = '依存'>依存</option>
-                    <option value = '執着'>執着</option>
-                    <option value = '束縛'>束縛</option>
-                    <option value = '狂気'>狂気</option>
-                    <option value = '無属'>無属</option>
-                </select>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <label>
-                    <input type = 'checkbox' id = "cSeikaku" onclick='filter()'>性格
-                </label>
-            </td>
-            <td>
-                <select id = 'seikaku' style ='width:150px' onchange='filter()'>
-                    <option value = '*'>*</option>
-                    <option value = '元気'>元気</option>
-                    <option value = '活発'>活発</option>
-                    <option value = '清楚'>清楚</option>
-                    <option value = '癒やし'>癒やし</option>
-                    <option value = '献身'>献身</option>
-                    <option value = '陰湿'>陰湿</option>
-                    <option value = '狡猾'>狡猾</option>
-                    <option value = '乱暴'>乱暴</option>
-                    <option value = '凶暴'>凶暴</option>
-                    <option value = 'バカ'>バカ</option>
-                    <option value = 'ドジ'>ドジ</option>
-                    <option value = 'ツンデレ'>ツンデレ</option>
-                    <option value = '変態'>変態</option>
-                    <option value = '淫乱'>淫乱</option>
-                    <option value = '甘えん坊'>甘えん坊</option>
-                    <option value = '腹黒'>腹黒</option>
-                    <option value = 'ぷんぷん'>ぷんぷん</option>
-                    <option value = 'すきんしっぱー'>すきんしっぱー</option>
-                    <option value = '抑圧ちゃん'>抑圧ちゃん</option>
-                    <option value = '怪奇'>怪奇</option>
-                    <option value = '逆襲'>逆襲</option>
-                </select>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <label>
-                    <input type = 'checkbox' id = "cSkill_who" onclick='filter()'>スキル範囲
-                </label>
-            </td>
-            <td>
-                <select id = 'skill_who' style ='width:150px' onchange='filter()'>
-                    <option value = '*'>*</option>
-                    <option value = '自'>自</option>
-                    <option value = '全'>全</option>
-                    <option value = '単'>単</option>
-                    <option value = '敵'>敵</option>
-                    <option value = '敵全'>敵全</option>
-                    <option value = ''></option>
-                </select>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <label>
-                    <input type = 'checkbox' id = "cSkill_what" onclick='filter()'>スキル内容
-                </label>    
-            </td>
-            <td>
-                <select id = 'skill_what' style ='width:150px' onchange='filter()'>
-                    <option value = '*'>*</option>
-                    <option value = '攻UP'>攻UP</option>
-                    <option value = '攻DOWN'>攻DOWN</option>
-                    <option value = '防UP'>防UP</option>
-                    <option value = '防DOWN'>防DOWN</option>
-                    <option value = '狂乱'>狂乱</option>
-                    <option value = '狡猾'>狡猾</option>
-                    <option value = '心中'>心中</option>
-                    <option value = '束縛'>束縛</option>
-                    <option value = '感染'>感染</option>
-                    <option value = '監禁'>監禁</option>
-                    <option value = '献身'>献身</option>
-                </select>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <label>
-                    <input type = 'checkbox' id = "cSkill_size" onclick='filter()'>スキル規模
-                </label>
-            </td>
-            <td>
-                <select id = 'skill_size' style ='width:150px' onchange='filter()'>
-                    <option value = '*'>*</option>
-                    <option value = '小'>小</option>
-                    <option value = '中'>中</option>
-                    <option value = '大'>大</option>
-                    <option value = ''></option>
-                </select>
-            </td>
-        </tr>
-        <tr>
-            <td colspan="2">
-                <label>
-                    <input type = 'checkbox' id = "cSkill_name" onclick='filter()'>スキル名
-                </label>
-            </td>
-        </tr>
-        <tr>
-            <td colspan="2">
-                <label>
-                    <input type = 'checkbox' id = "cOrigin" onclick='filter()'>関連
-                </label>
-            </td>
-        </tr>
-        <tr>
-            <td colspan="2">
-                <label>
-                    <input type = 'checkbox' id = "cCount1" onclick='filter()'>病化しない<br>
-                    キャラを除外する
-                </label>
-            </td>
-        </tr>
-    </table>
-    <hr>
-    <table id = "order" border='1' style="display:none">
-      <tr>
-        <th>番号</th>
-        <th>リスト順</th>
-        <th>名前</th>
-        <th>関連</th>
-        <th>レア度</th>
-        <th>属性</th>
-        <th>性格</th>
-        <th>スキル範囲</th>
-        <th>スキル内容</th>
-        <th>スキル規模</th>
-        <th>スキル名</th>
-        <th>カード個数</th>
-        <th>URL移動</th>
-      </tr>
-    </table>
-  </body>
-  <script>
-    let table = document.getElementById("order");
-    table.style.width = "0px";
-    table.style.tableLayout = "fixed";
-    
-    function readTextFile(file){
-      var rawFile = new XMLHttpRequest();
-      rawFile.open("GET", file, false);
-      rawFile.onreadystatechange = function (){
-        if(rawFile.readyState === 4){
-          if(rawFile.status === 200 || rawFile.status == 0){
-            var allText = rawFile.responseText;
-            TableInput(allText);
-          }
+        </table>
+    </body>
+    <script>
+        let table = document.getElementById("order");
+        table.style.width = "0px";
+        table.style.tableLayout = "fixed";
+        
+        function readTextFile(file){
+            var rawFile = new XMLHttpRequest();
+            rawFile.open("GET", file, false);
+            rawFile.onreadystatechange = function (){
+                if (rawFile.readyState === 4){
+                    if (rawFile.status === 200 || rawFile.status == 0){
+                        var allText = rawFile.responseText;
+                        TableInput(allText);
+                    }
+                }
+            };
+            rawFile.send(null);
         }
-      };
-      rawFile.send(null);
-    }
-    readTextFile("./yandemicList.txt");
-    
-    function TableInput(allText){
-      let rows = allText.split("\n");
-      for (i = 0; i < rows.length - 1; i++){
-        let cols = rows[i].split(", ");
-        let tr = document.createElement('tr');
-        table.appendChild(tr);
-        for (j = 0; j < cols.length; j++){
-          if (j == 3){
-            let td = tr.getElementsByTagName('td');
-            td[td.length-1].title = cols[j];
-          }else{
-            let td = document.createElement('td');
-            tr.appendChild(td);
-            if (j == cols.length - 1){
-              td.innerHTML = "<a href = '" + cols[j] + "'>移動</a>";
-            }else{
-              td.innerHTML = cols[j];
+        readTextFile("./yandemicList.txt");
+        
+        function TableInput(allText){
+            // 1行ずつ分ける
+            let rows = allText.split("\n");
+            for (i = 0; i < rows.length - 1; i++){
+                // コンマで分ける
+                let cols = rows[i].split(", ");
+                let tr = document.createElement('tr');
+                table.appendChild(tr);
+                for (j = 0; j < cols.length; j++){
+                    // タイトル定義
+                    if (j == 3){
+                        let td = tr.getElementsByTagName('td');
+                        td[td.length-1].title = cols[j];
+                    }
+                    // その他
+                    else {
+                        let td = document.createElement('td');
+                        tr.appendChild(td);
+                        // URL定義
+                        if (j == cols.length - 1){
+                            td.innerHTML = "<a href = '" + cols[j] + "'>移動</a>";
+                        }
+                        // その他
+                        else {
+                            td.innerHTML = cols[j];
+                        }
+                    }
+                }
             }
-          }
         }
-      }
-    }
-    
-    let tableName = [];
-    tableName["no"] = 0;
-    tableName["listNo"] = 1
-    tableName["name"] = 2;
-    tableName["origin"] = 3;
-    tableName["rare"] = 4;
-    tableName["zokusei"] = 5;
-    tableName["seikaku"] = 6;
-    tableName["skill_who"] = 7;
-    tableName["skill_what"] = 8;
-    tableName["skill_size"] = 9;
-    tableName["skill_name"] = 10;
-    tableName["count"] = 11;
-    tableName["url"] = 12;
+        
+        let tableName = [];
+        tableName["no"] = 0;
+        tableName["listNo"] = 1
+        tableName["name"] = 2;
+        tableName["origin"] = 3;
+        tableName["rare"] = 4;
+        tableName["zokusei"] = 5;
+        tableName["seikaku"] = 6;
+        tableName["skill_who"] = 7;
+        tableName["skill_what"] = 8;
+        tableName["skill_size"] = 9;
+        tableName["skill_name"] = 10;
+        tableName["count"] = 11;
+        tableName["eventName"] = 12;
+        tableName["eventDate"] = 13;
+        tableName["url"] = 14;
 
-    let th = table.getElementsByTagName('th');
-    th[ tableName["no"] ].style.width = "50px";
-    th[ tableName["listNo"] ].style.width = "50px";
-    th[ tableName["name"] ].style.width = "200px";
-    th[ tableName["origin"] ].style.width = "100px";
-    th[ tableName["rare"] ].style.width = "50px";
-    th[ tableName["zokusei"] ].style.width = "50px";
-    th[ tableName["seikaku"] ].style.width = "80px";
-    th[ tableName["skill_who"] ].style.width = "50px";
-    th[ tableName["skill_what"] ].style.width = "80px";
-    th[ tableName["skill_size"] ].style.width = "50px";
-    th[ tableName["skill_name"] ].style.width = "250px";
-    th[ tableName["count"] ].style.width = "50px";
-    th[ tableName["url"] ].style.width = "50px";
-
-    let tableWidth = 0;
-    for (i = 0; i < th.length; i++){
-        tableWidth += parseInt(th[i].style.width);
-    }
-
-    let originList = [];
-    let number = 0;
-    let tr = table.getElementsByTagName('tr');
-    for (i = 1; i < tr.length; i++){
-        let td = tr[i].getElementsByTagName('td');
-        if (td[ tableName["no"] ].innerHTML == number){
-            continue;
-        }else{
-            number = td[ tableName["no"] ].innerHTML;
-        }
-        let getElement = originList.find(originList => originList.name == td[ tableName["origin"] ].innerHTML);
-        if (td[ tableName["origin"] ].innerHTML == "N/A"){
-            continue;
-        }else if(getElement == undefined){
-            originList.push({"name": td[ tableName["origin"] ].innerHTML, "count":1});
-        }else{
-            getElement.count++;
-        }
-    }
-    originList.sort(function(a, b){return b.count - a.count;});
-    
-
-    let origin = document.getElementById('origin');
-    for (i = 0; i < originList.length; i++){
-        let option = document.createElement("option");
-        option.text = originList[i].name + "(" + originList[i].count + ")";
-        option.value = originList[i].name;
-        origin.add(option);
-    }
-
-
-    function filter(){
-        let varWidth = tableWidth;
-        let name = document.getElementById('name').value;
-        let origin = document.getElementById('origin').value
-        let rare = document.getElementById('rare').value;
-        let zokusei = document.getElementById('zokusei').value;
-        let seikaku = document.getElementById('seikaku').value;
-        let skill_who = document.getElementById('skill_who').value;
-        let skill_what = document.getElementById('skill_what').value;
-        let skill_size = document.getElementById('skill_size').value;
-        let cRare = document.getElementById('cRare').checked;
-        let cZokusei = document.getElementById('cZokusei').checked;
-        let cSeikaku = document.getElementById('cSeikaku').checked;
-        let cSkill_who = document.getElementById('cSkill_who').checked;
-        let cSkill_what = document.getElementById('cSkill_what').checked;
-        let cSkill_size = document.getElementById('cSkill_size').checked;
-        let cOrigin = document.getElementById('cOrigin').checked;
-        let cSkill_name = document.getElementById('cSkill_name').checked;
-        let cCount1 = document.getElementById('cCount1').checked;
         let th = table.getElementsByTagName('th');
-        let tr = table.getElementsByTagName('tr');
-        let td2 = table.getElementsByTagName('td');
+        th[ tableName["no"] ].style.width = "50px";
+        th[ tableName["listNo"] ].style.width = "50px";
+        th[ tableName["name"] ].style.width = "200px";
+        th[ tableName["origin"] ].style.width = "100px";
+        th[ tableName["rare"] ].style.width = "50px";
+        th[ tableName["zokusei"] ].style.width = "50px";
+        th[ tableName["seikaku"] ].style.width = "80px";
+        th[ tableName["skill_who"] ].style.width = "50px";
+        th[ tableName["skill_what"] ].style.width = "80px";
+        th[ tableName["skill_size"] ].style.width = "50px";
+        th[ tableName["skill_name"] ].style.width = "250px";
+        th[ tableName["count"] ].style.width = "50px";
+        th[ tableName["eventName"] ].style.width = "250px";
+        th[ tableName["eventDate"] ].style.width = "100px";
+        th[ tableName["url"] ].style.width = "50px";
+
+        let tableWidth = 0;
         for (i = 0; i < th.length; i++){
-            th[i].style.display = '';
+            tableWidth += parseInt(th[i].style.width);
         }
+        let originList = [];
+        let number = 0;
+        let tr = table.getElementsByTagName('tr');
         for (i = 1; i < tr.length; i++){
-            tr[i].style.display = '';
+            let td = tr[i].getElementsByTagName('td');
+            if (td[ tableName["no"] ].innerHTML == number){
+                continue;
+            }else{
+                number = td[ tableName["no"] ].innerHTML;
+            }
+            let getElement = originList.find(originList => originList.name == td[ tableName["origin"] ].innerHTML);
+            if (td[ tableName["origin"] ].innerHTML == "N/A"){
+                continue;
+            }else if(getElement == undefined){
+                originList.push({"name": td[ tableName["origin"] ].innerHTML, "count":1});
+            }else{
+                getElement.count++;
+            }
         }
-        for (i = 0; i < td2.length; i++){
-            td2[i].style.display = '';
+        originList.sort(function(a, b){return b.count - a.count;});
+        
+        let origin = document.getElementById('origin');
+        for (i = 0; i < originList.length; i++){
+            let option = document.createElement("option");
+            option.text = originList[i].name + "(" + originList[i].count + ")";
+            option.value = originList[i].name;
+            origin.add(option);
         }
-        if (name != ''){
-            for (let i = 1; i < tr.length; i++){
-                let td = tr[i].getElementsByTagName("td");
-                if (td[ tableName["name"] ].innerHTML.indexOf(name) == -1 && td[ tableName["name"] ].title.indexOf(name) == -1){
-                    tr[i].style.display = "none";
+        
+        function filter(){
+            let varWidth = tableWidth;
+            let name = document.getElementById('name').value;
+            let origin = document.getElementById('origin').value
+            let rare = document.getElementById('rare').value;
+            let zokusei = document.getElementById('zokusei').value;
+            let seikaku = document.getElementById('seikaku').value;
+            let skill_who = document.getElementById('skill_who').value;
+            let skill_what = document.getElementById('skill_what').value;
+            let skill_size = document.getElementById('skill_size').value;
+            let cRare = document.getElementById('cRare').checked;
+            let cZokusei = document.getElementById('cZokusei').checked;
+            let cSeikaku = document.getElementById('cSeikaku').checked;
+            let cSkill_who = document.getElementById('cSkill_who').checked;
+            let cSkill_what = document.getElementById('cSkill_what').checked;
+            let cSkill_size = document.getElementById('cSkill_size').checked;
+            let cOrigin = document.getElementById('cOrigin').checked;
+            let cSkill_name = document.getElementById('cSkill_name').checked;
+            let cCount1 = document.getElementById('cCount1').checked;
+            let th = table.getElementsByTagName('th');
+            let tr = table.getElementsByTagName('tr');
+            let td2 = table.getElementsByTagName('td');
+            for (i = 0; i < th.length; i++){
+                th[i].style.display = '';
+            }
+            for (i = 1; i < tr.length; i++){
+                tr[i].style.display = '';
+            }
+            for (i = 0; i < td2.length; i++){
+                td2[i].style.display = '';
+            }
+            if (name != ''){
+                for (let i = 1; i < tr.length; i++){
+                    let td = tr[i].getElementsByTagName("td");
+                    if (td[ tableName["name"] ].innerHTML.indexOf(name) == -1 && td[ tableName["name"] ].title.indexOf(name) == -1){
+                        tr[i].style.display = "none";
+                    }
                 }
             }
-        }
-      
-        if (origin != '*'){
-            for (let i = 1; i < tr.length; i++){
-                let td = tr[i].getElementsByTagName("td");
-                if (td[ tableName["origin"] ].innerHTML != origin){
-                    tr[i].style.display = "none";
+        
+            if (origin != '*'){
+                for (let i = 1; i < tr.length; i++){
+                    let td = tr[i].getElementsByTagName("td");
+                    if (td[ tableName["origin"] ].innerHTML != origin){
+                        tr[i].style.display = "none";
+                    }
                 }
             }
-        }
-        if (rare != '*'){
-            for (i = 1; i < tr.length; i++){
-                let td = tr[i].getElementsByTagName('td');
-                if (td[ tableName["rare"] ].innerHTML != rare){
-                    tr[i].style.display = "none";
+            if (rare != '*'){
+                for (i = 1; i < tr.length; i++){
+                    let td = tr[i].getElementsByTagName('td');
+                    if (td[ tableName["rare"] ].innerHTML != rare){
+                        tr[i].style.display = "none";
+                    }
                 }
             }
-        }
-        if (!cRare){
-            th[ tableName["rare"] ].style.display = "none";
-            for (i = 1; i < tr.length; i++){
-                let td = tr[i].getElementsByTagName("td");
-                td[ tableName["rare"] ].style.display = "none";
-                varWidth -= parseInt(th[ tableName["rare"] ].style.width);
+            if (!cRare){
+                th[ tableName["rare"] ].style.display = "none";
+                for (i = 1; i < tr.length; i++){
+                    let td = tr[i].getElementsByTagName("td");
+                    td[ tableName["rare"] ].style.display = "none";
+                    varWidth -= parseInt(th[ tableName["rare"] ].style.width);
+                }
+            }else{
+                varWidth += parseInt(th[ tableName["rare"] ].style.width);
             }
-        }else{
-            varWidth += parseInt(th[ tableName["rare"] ].style.width);
-        }
-        if (zokusei != '*'){
-            for (i = 1; i < tr.length; i++){
-                let td = tr[i].getElementsByTagName('td');
-                if (td[ tableName["zokusei"] ].innerHTML != zokusei){
-                    tr[i].style.display = "none";
+            if (zokusei != '*'){
+                for (i = 1; i < tr.length; i++){
+                    let td = tr[i].getElementsByTagName('td');
+                    if (td[ tableName["zokusei"] ].innerHTML != zokusei){
+                        tr[i].style.display = "none";
+                    }
                 }
             }
-        }
-        if (!cZokusei){
-            th[ tableName["zokusei"] ].style.display = "none";
-            for (i = 1; i < tr.length; i++){
-                let td = tr[i].getElementsByTagName("td");
-                td[ tableName["zokusei"] ].style.display = "none";
-                varWidth -= parseInt(th[ tableName["zokusei"] ].style.width);
+            if (!cZokusei){
+                th[ tableName["zokusei"] ].style.display = "none";
+                for (i = 1; i < tr.length; i++){
+                    let td = tr[i].getElementsByTagName("td");
+                    td[ tableName["zokusei"] ].style.display = "none";
+                    varWidth -= parseInt(th[ tableName["zokusei"] ].style.width);
+                }
+            }else{
+                varWidth += parseInt(th[ tableName["zokusei"] ].style.width);
             }
-        }else{
-            varWidth += parseInt(th[ tableName["zokusei"] ].style.width);
-        }
-        if (seikaku != '*'){
-            for (i = 1; i < tr.length; i++){
-                let td = tr[i].getElementsByTagName('td');
-                if (td[ tableName["seikaku"] ].innerHTML != seikaku){
-                    tr[i].style.display = "none";
+            if (seikaku != '*'){
+                for (i = 1; i < tr.length; i++){
+                    let td = tr[i].getElementsByTagName('td');
+                    if (td[ tableName["seikaku"] ].innerHTML != seikaku){
+                        tr[i].style.display = "none";
+                    }
                 }
             }
-        }
-        if (!cSeikaku){
-            th[ tableName["seikaku"] ].style.display = "none";
-            for (i = 1; i < tr.length; i++){
-                let td = tr[i].getElementsByTagName("td");
-                td[ tableName["seikaku"] ].style.display = "none";
-                varWidth -= parseInt(th[ tableName["seikaku"] ].style.width);
+            if (!cSeikaku){
+                th[ tableName["seikaku"] ].style.display = "none";
+                for (i = 1; i < tr.length; i++){
+                    let td = tr[i].getElementsByTagName("td");
+                    td[ tableName["seikaku"] ].style.display = "none";
+                    varWidth -= parseInt(th[ tableName["seikaku"] ].style.width);
+                }
+            }else{
+                varWidth += parseInt(th[ tableName["seikaku"] ].style.width);
             }
-        }else{
-            varWidth += parseInt(th[ tableName["seikaku"] ].style.width);
-        }
-        if (skill_who != '*'){
-            for (i = 1; i < tr.length; i++){
-                let td = tr[i].getElementsByTagName('td');
-                if (td[ tableName["skill_who"] ].innerHTML != skill_who){
-                    tr[i].style.display = "none";
+            if (skill_who != '*'){
+                for (i = 1; i < tr.length; i++){
+                    let td = tr[i].getElementsByTagName('td');
+                    if (td[ tableName["skill_who"] ].innerHTML != skill_who){
+                        tr[i].style.display = "none";
+                    }
                 }
             }
-        }
-        if (!cSkill_who){
-            th[ tableName["skill_who"] ].style.display = "none";
-            for (i = 1; i < tr.length; i++){
-                let td = tr[i].getElementsByTagName("td");
-                td[ tableName["skill_who"] ].style.display = "none";
-                varWidth -= parseInt(th[ tableName["skill_who"] ].style.width);
+            if (!cSkill_who){
+                th[ tableName["skill_who"] ].style.display = "none";
+                for (i = 1; i < tr.length; i++){
+                    let td = tr[i].getElementsByTagName("td");
+                    td[ tableName["skill_who"] ].style.display = "none";
+                    varWidth -= parseInt(th[ tableName["skill_who"] ].style.width);
+                }
+            }else{
+                varWidth += parseInt(th[ tableName["skill_who"] ].style.width);
             }
-        }else{
-            varWidth += parseInt(th[ tableName["skill_who"] ].style.width);
-        }
-        if (skill_what != '*'){
-            for (i = 1; i < tr.length; i++){
-                let td = tr[i].getElementsByTagName('td');
-                if (td[ tableName["skill_what"] ].innerHTML != skill_what){
-                    tr[i].style.display = "none";
+            if (skill_what != '*'){
+                for (i = 1; i < tr.length; i++){
+                    let td = tr[i].getElementsByTagName('td');
+                    if (td[ tableName["skill_what"] ].innerHTML != skill_what){
+                        tr[i].style.display = "none";
+                    }
                 }
             }
-        }
-        if (!cSkill_what){
-            th[ tableName["skill_what"] ].style.display = "none";
-            for (i = 1; i < tr.length; i++){
-                let td = tr[i].getElementsByTagName("td");
-                td[ tableName["skill_what"] ].style.display = "none";
-                varWidth -= parseInt(th[ tableName["skill_what"] ].style.width);
+            if (!cSkill_what){
+                th[ tableName["skill_what"] ].style.display = "none";
+                for (i = 1; i < tr.length; i++){
+                    let td = tr[i].getElementsByTagName("td");
+                    td[ tableName["skill_what"] ].style.display = "none";
+                    varWidth -= parseInt(th[ tableName["skill_what"] ].style.width);
+                }
+            }else{
+                varWidth += parseInt(th[ tableName["skill_what"] ].style.width);
             }
-        }else{
-            varWidth += parseInt(th[ tableName["skill_what"] ].style.width);
-        }
-        if (skill_size != '*'){
-            for (i = 1; i < tr.length; i++){
-                let td = tr[i].getElementsByTagName('td');
-                if (td[ tableName["skill_size"] ].innerHTML != skill_size){
-                    tr[i].style.display = "none";
+            if (skill_size != '*'){
+                for (i = 1; i < tr.length; i++){
+                    let td = tr[i].getElementsByTagName('td');
+                    if (td[ tableName["skill_size"] ].innerHTML != skill_size){
+                        tr[i].style.display = "none";
+                    }
                 }
             }
-        }
-        if (!cSkill_size){
-            th[ tableName["skill_size"] ].style.display = "none";
-            for (i = 1; i < tr.length; i++){
-                let td = tr[i].getElementsByTagName("td");
-                td[ tableName["skill_size"] ].style.display = "none";
-                varWidth -= parseInt(th[ tableName["skill_size"] ].style.width);
+            if (!cSkill_size){
+                th[ tableName["skill_size"] ].style.display = "none";
+                for (i = 1; i < tr.length; i++){
+                    let td = tr[i].getElementsByTagName("td");
+                    td[ tableName["skill_size"] ].style.display = "none";
+                    varWidth -= parseInt(th[ tableName["skill_size"] ].style.width);
+                }
+            }else{
+                varWidth += parseInt(th[ tableName["skill_size"] ].style.width);
             }
-        }else{
-            varWidth += parseInt(th[ tableName["skill_size"] ].style.width);
-        }
-        if (!cSkill_name){
-            th[ tableName["skill_name"] ].style.display = "none";
-            for (i = 1; i < tr.length; i++){
-                let td = tr[i].getElementsByTagName("td");
-                td[ tableName["skill_name"] ].style.display = "none";
-                varWidth -= parseInt(th[ tableName["skill_name"] ].style.width);
+            if (!cSkill_name){
+                th[ tableName["skill_name"] ].style.display = "none";
+                for (i = 1; i < tr.length; i++){
+                    let td = tr[i].getElementsByTagName("td");
+                    td[ tableName["skill_name"] ].style.display = "none";
+                    varWidth -= parseInt(th[ tableName["skill_name"] ].style.width);
+                }
+            }else{
+                varWidth += parseInt(th[ tableName["skill_name"] ].style.width);
             }
-        }else{
-            varWidth += parseInt(th[ tableName["skill_name"] ].style.width);
-        }
-      
-        if (!cOrigin){
-            th[ tableName["origin"] ].style.display = "none";
-            for (i = 1; i < tr.length; i++){
-                let td = tr[i].getElementsByTagName("td");
-                td[ tableName["origin"] ].style.display = "none";
-                varWidth -= parseInt(th[ tableName["origin"] ].style.width);
+        
+            if (!cOrigin){
+                th[ tableName["origin"] ].style.display = "none";
+                for (i = 1; i < tr.length; i++){
+                    let td = tr[i].getElementsByTagName("td");
+                    td[ tableName["origin"] ].style.display = "none";
+                    varWidth -= parseInt(th[ tableName["origin"] ].style.width);
+                }
+            }else{
+                varWidth += parseInt(th[ tableName["origin"] ].style.width);
             }
-        }else{
-            varWidth += parseInt(th[ tableName["origin"] ].style.width);
-        }
-        if (cCount1){
-            for (i = 1; i < tr.length; i++){
-                let td = tr[i].getElementsByTagName('td');
-                if (td[ tableName["count"] ].innerHTML == 1){
-                    tr[i].style.display = "none";
+            if (cCount1){
+                for (i = 1; i < tr.length; i++){
+                    let td = tr[i].getElementsByTagName('td');
+                    if (td[ tableName["count"] ].innerHTML == 1){
+                        tr[i].style.display = "none";
+                    }
                 }
             }
+            table.style.width = varWidth + "px";
         }
-        table.style.width = varWidth + "px";
-    }
-    filter();
-    table.style.display = "";
-  </script>
+        filter();
+        table.style.display = "";
+    </script>
 </html>
