@@ -1068,3 +1068,9 @@
 60044, 3691, 【ドＳ】香澄様, どえす かすみさま, 仁科 香澄, HR, 狂気, 抑圧ちゃん, 全, 攻UP, 大, あなたのことなんか、大っ嫌い！, 4, 愛されて5周年 ドS限定3連ガチャ, 2019-11-05, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=22-55&img_size=m,l
 60045, 3695, 【ドＳ】紬さん, どえす つむぎさん, 逢形 紬, HR, 束縛, 献身, 全, 防UP, 大, ご主人様、お返事は？, 4, 愛されて5周年 ドS限定3連ガチャ, 2019-11-05, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=22-56&img_size=m,l
 60046, 3699, メンテちゃん, めんてちゃん, メンテちゃん, HR, 依存, ドジ, 敵全, 攻DOWN, 中, すみません……ごめんなさい……すみません！, 4, 5周年記念特別配布カード, 2019-11-05, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=22-57&img_size=m,l
+60047, 3703, 【大学生】小坂 千代, だいがくせい こさか ちよ, 小坂 千代, R, 執着, 清楚, 敵, 防DOWN, 中, 剣を極めて極めて極めまくる！, 4, 天障陰 椿の虚像, 2019-11-29, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=22-58&img_size=m,l
+60048, 3707, 早上 柴乃, さがみ しの, 早上 柴乃, R, 依存, 献身, 敵, 攻DOWN, 中, 愛の為に生きて…そして…, 4, 天障陰 椿の虚像, 2019-11-29, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=22-59&img_size=m,l
+60049, 3711, 妹と妹（？）～別世界妹対談～, , N/A, R, *, *, NULL, NULL, NULL, NULL, 1, 天障陰 椿の虚像, 2019-12-09, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=22-60&img_size=m,l
+60050, 3712, 【強行取材】徳田 音絵留, きょうこうしゅざい とくだ ねえる, 徳田 音絵留, HR, 依存, 狡猾, 自, 防UP, 大, 私は必ず真実を見つけ出す。必ず…, 4, 天障陰 椿の虚像, 2019-11-29, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=22-61&img_size=m,l
+60051, 3716, 【凱旋】天野 息吹, がいせん あまの いぶき, 天野 息吹, HR, 依存, 淫乱, 敵, 攻DOWN, 大, 大学生になると毎日会えないわね…, 4, 天障陰 椿の虚像, 2019-12-09, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=22-62&img_size=m,l
+60052, 3720, 【戦慄】天障陰 椿, せんりつ てんしょういん つばき, 天障陰 椿, HR, 束縛, 清楚, 全, 防UP, 大, 私は、普通の生活がしたいだけですよ, 4, 天障陰 椿の虚像, 2019-11-29, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=22-63&img_size=m,l
