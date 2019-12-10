@@ -1070,7 +1070,10 @@
 60046, 3699, メンテちゃん, めんてちゃん, メンテちゃん, HR, 依存, ドジ, 敵全, 攻DOWN, 中, すみません……ごめんなさい……すみません！, 4, 5周年記念特別配布カード, 2019-11-05, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=22-57&img_size=m,l
 60047, 3703, 【大学生】小坂 千代, だいがくせい こさか ちよ, 小坂 千代, R, 執着, 清楚, 敵, 防DOWN, 中, 剣を極めて極めて極めまくる！, 4, 天障陰 椿の虚像, 2019-11-29, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=22-58&img_size=m,l
 60048, 3707, 早上 柴乃, さがみ しの, 早上 柴乃, R, 依存, 献身, 敵, 攻DOWN, 中, 愛の為に生きて…そして…, 4, 天障陰 椿の虚像, 2019-11-29, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=22-59&img_size=m,l
-60049, 3711, 妹と妹（？）～別世界妹対談～, , N/A, R, *, *, NULL, NULL, NULL, NULL, 1, 天障陰 椿の虚像, 2019-12-09, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=22-60&img_size=m,l
+60049, 3711, 妹と妹（？）～別世界妹対談～, いもうとといもうと べつせかいいもうとたいだん, N/A, R, 執着, 清楚, 自, 攻UP, 中, 兄さん。お兄ぃちゃぁぁん～～～♪, 1, 天障陰 椿の虚像, 2019-12-09, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=22-60&img_size=m,l
 60050, 3712, 【強行取材】徳田 音絵留, きょうこうしゅざい とくだ ねえる, 徳田 音絵留, HR, 依存, 狡猾, 自, 防UP, 大, 私は必ず真実を見つけ出す。必ず…, 4, 天障陰 椿の虚像, 2019-11-29, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=22-61&img_size=m,l
 60051, 3716, 【凱旋】天野 息吹, がいせん あまの いぶき, 天野 息吹, HR, 依存, 淫乱, 敵, 攻DOWN, 大, 大学生になると毎日会えないわね…, 4, 天障陰 椿の虚像, 2019-12-09, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=22-62&img_size=m,l
 60052, 3720, 【戦慄】天障陰 椿, せんりつ てんしょういん つばき, 天障陰 椿, HR, 束縛, 清楚, 全, 防UP, 大, 私は、普通の生活がしたいだけですよ, 4, 天障陰 椿の虚像, 2019-11-29, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=22-63&img_size=m,l
+60053, 3724, 【巫女】聖女 マリア, みこ ひじりめ まりあ, 聖女 マリア, HR, 無属, 献身, 全, 防UP, 大, 神よ…全ての者をお救いください, 4, え…もう明けちゃうの！？yes！信徒gacha, 2019-12-09, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=22-64&img_size=m,l
+60054, 3728, 【巫女】角隠 鈴歌, みこ つのがくれ すずか, 角隠 鈴歌, HR, 狂気, 凶暴, 全, 狂乱, 大, 鬼が巫女ではいけないですか？, 4, え…もう明けちゃうの！？yes！信徒gacha, 2019-12-09, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=22-65&img_size=m,l
+60055, 3732, 【巫女】張憑 厄, みこ はりつき やく, 張憑 厄, HR, 依存, 怪奇, 全, 狡猾, 大, 私は神そのものの筈ですが？巫女？！, 4, え…もう明けちゃうの！？yes！信徒gacha, 2019-12-09, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=22-66&img_size=m,l
