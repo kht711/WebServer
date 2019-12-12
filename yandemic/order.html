@@ -225,6 +225,12 @@
                         if (j == cols.length - 1){
                             td.innerHTML = "<a href = '" + cols[j] + "'>移動</a>";
                         }
+                        // 日付
+                        else if (j == 14){
+                            let days = ["(日)", "(月)", "(火)", "(水)", "(木)", "(金)", "(土)"];
+                            let day = new Date(cols[j]).getDay();
+                            td.innerHTML = cols[j] + " " + days[day];
+                        }
                         // その他
                         else {
                             td.innerHTML = cols[j];
@@ -250,7 +256,6 @@
         tableName["eventName"] = 12;
         tableName["eventDate"] = 13;
         tableName["url"] = 14;
-
         let th = table.getElementsByTagName('th');
         th[ tableName["no"] ].style.width = "50px";
         th[ tableName["listNo"] ].style.width = "50px";
@@ -267,7 +272,6 @@
         th[ tableName["eventName"] ].style.width = "250px";
         th[ tableName["eventDate"] ].style.width = "100px";
         th[ tableName["url"] ].style.width = "50px";
-
         let tableWidth = 0;
         for (i = 0; i < th.length; i++){
             tableWidth += parseInt(th[i].style.width);
