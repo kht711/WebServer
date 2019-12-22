@@ -1079,7 +1079,7 @@
 60055, 3732, 【巫女】張憑 厄, みこ はりつき やく, 張憑 厄, HR, 依存, 怪奇, 全, 狡猾, 大, 私は神そのものの筈ですが？巫女？！, 4, え…もう明けちゃうの！？yes！信徒gacha, 2019-12-09, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=22-66&img_size=m,l
 60056, 3736, ダリル・ヴィクセン, だりるう”ぃくせん, ダリル・ヴィクセン, R, 依存, 淫乱, 敵, 攻DOWN, 中, あたしが性器のサンタよ！, 4, トナカイズ ラブ with santa, 2019-12-12, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=22-67&img_size=m,l
 60057, 3740, 【サンタ】際見 笑見, さんた きわみ えみ, 際見 笑見, R, 執着, 陰湿, 敵全, 防DOWN, 小, ふふふ…クリスマス…ふふふ…♪, 4, トナカイズ ラブ with santa, 2019-12-12, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=22-68&img_size=m,l
-60058, 3744, ハンターと怪しいサンタ達, , N/A, R, *, *, NULL, NULL, NULL, NULL, 1, トナカイズ ラブ with santa, 2019-12-23, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=22-69&img_size=m,l
+60058, 3744, ハンターと怪しいサンタ達, はんたーとあやしいさんたたち, N/A, R, 狂気, 乱暴, 自, 攻UP, 中, 聖なる性なるクリスマス！, 1, トナカイズ ラブ with santa, 2019-12-23, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=22-69&img_size=m,l
 60059, 3745, ミレイ・ブリッツェン, みれい・ぶりっつぇん, ミレイ・ブリッツェン, HR, 狂気, 乱暴, 敵, 防DOWN, 大, サンタハンターミレイ、登場！, 4, トナカイズ ラブ with santa, 2019-12-12, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=22-70&img_size=m,l
 60060, 3749, ブラン・コメット, ぶらん・こめっと, ブラン・コメット, HR, 執着, 抑圧ちゃん, 自, 攻UP, 大, トナカイじゃなく、女の子になりたいの, 4, トナカイズ ラブ with santa, 2019-12-23, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=22-71&img_size=m,l
 60061, 3753, ソフィア・キューピッド, そふぃあきゅーぴっど, ソフィア・キューピッド, HR, 束縛, 献身, 敵全, 攻DOWN, 大, ポンコツサンタでごめんなさい泣, 4, トナカイズ ラブ with santa, 2019-12-12, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=22-72&img_size=m,l
