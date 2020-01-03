@@ -1089,3 +1089,5 @@
 60065, 3766, タタエル, たたえる, タタエル, HR, 執着, 清楚, 敵全, 防DOWN, 中, タタエル, 4, 天使と過ごした5日間, 2019-12-26, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=22-76&img_size=m,l
 60066, 3770, ナブリエル, なぶりえる, ナブリエル, HR, 束縛, 狡猾, 全, 防UP, 中, 私は大天使。貴方に拒否権はない。, 4, 天使と過ごした5日間, 2020-01-06, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=22-77&img_size=m,l
 60067, 3774, 天矢 える, あまや える, 天矢 える, HR, 束縛, 清楚, 全, 防UP, 大, 恋…なんて素敵なものなのでしょう…, 4, 天使と過ごした5日間, 2019-12-26, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=22-78&img_size=m,l
+60068, 3778, 【花魁】駄楽々 あくび, おいらん だらら あくび, 駄楽々 あくび, HR, 依存, 甘えん坊, 敵全, 攻DOWN, 大, あちきに惚れてくんなんし♪, 4, 2020 お正月限定 花魁ガチャ, 2020-01-01, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=22-79&img_size=m,l
+60069, 3782, 【女郎】長部 輪子, じょろう おさべ りんこ, 長部 輪子, HR, 執着, バカ, 全, 攻UP, 大, 最先端のがぜんオサリン、なう！, 4, 2020 お正月限定 花魁ガチャ, 2020-01-01, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=22-80&img_size=m,l
