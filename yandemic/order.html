@@ -56,8 +56,7 @@
                     </label>
                 </td>
                 <td>
-                    <select id = 'seikaku' style ='width:150px' onchange='filter()'>
-                        <option value = '*'>*</option>
+                    <select multiple id = 'seikaku' style ='width:150px' onchange='filter()'>
                         <option value = '元気'>元気</option>
                         <option value = '活発'>活発</option>
                         <option value = '清楚'>清楚</option>
@@ -311,7 +310,7 @@
             let origin = document.getElementById('origin').value
             let rare = document.getElementById('rare').value;
             let zokusei = document.getElementById('zokusei').value;
-            let seikaku = document.getElementById('seikaku').value;
+            let seikaku = document.getElementById('seikaku');
             let skill_who = document.getElementById('skill_who').value;
             let skill_what = document.getElementById('skill_what').value;
             let skill_size = document.getElementById('skill_size').value;
@@ -389,14 +388,23 @@
             }else{
                 varWidth += parseInt(th[ tableName["zokusei"] ].style.width);
             }
-            if (seikaku != '*'){
+
+
+            let selectSeikaku = [];
+            for (i = 0; i < seikaku.length; i++){
+                if (seikaku[i].selected){
+                    selectSeikaku.push(seikaku[i].value)
+                }
+            }
+            if (selectSeikaku.length != 0){
                 for (i = 1; i < tr.length; i++){
                     let td = tr[i].getElementsByTagName('td');
-                    if (td[ tableName["seikaku"] ].innerHTML != seikaku){
+                    if (selectSeikaku.indexOf(td[ tableName["seikaku"] ].innerHTML) == -1){
                         tr[i].style.display = "none";
                     }
                 }
             }
+
             if (!cSeikaku){
                 th[ tableName["seikaku"] ].style.display = "none";
                 for (i = 1; i < tr.length; i++){
