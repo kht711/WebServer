@@ -107,8 +107,8 @@
 107, 363, 稀空 夏帆, まれそら かほ, 稀空 夏帆, R, 狂気, ドジ, 自, 防UP, 中, 未確認肉棒発見！, 4, 風雲！部活動リーグ～第１部～, 2015-01-21, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=20-107&img_size=m,l
 108, 367, 【犬】暁 春菜, いぬ あかつき はるな, 暁 春菜, R, 束縛, 元気, 敵, 防DOWN, 中, ここ(だけ)掘れワンワン♪, 4, 風雲！部活動リーグ～第１部～, 2015-01-27, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=20-108&img_size=m,l
 109, 371, 【孔明】天野 息吹, こうめい あまの いぶき, 天野 息吹, R, 依存, 癒やし, 敵全, 防DOWN, 中, 軍師！罠にハマる, 4, 風雲！部活動リーグ～第１部～, 2015-01-27, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=20-109&img_size=m,l
-110, 375, 【制服】小坂 千代, せいふく こさか ちよ, 小坂 千代, HR, 執着, 清楚, 自, 防UP, 大, 迎撃態勢万全, 4, 風雲！部活動リーグ～第１部～, 2015-01-27, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=20-110&img_size=m,l
-111, 379, 【制服】姫路 時子, せいふく ひめじ ときこ, 姫路 時子, HR, 依存, 活発, 自, 攻UP, 大, 神速ド天然, 4, 風雲！部活動リーグ～第１部～, 2015-01-27, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=20-111&img_size=m,l
+110, 375, 【制服】小坂 千代, せいふく こさか ちよ, 小坂 千代, HR, 執着, 清楚, 自, 防UP, 大, 迎撃態勢万全, 4, 風雲！部活動リーグ～第１部～, 2015-01-22, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=20-110&img_size=m,l
+111, 379, 【制服】姫路 時子, せいふく ひめじ ときこ, 姫路 時子, HR, 依存, 活発, 自, 攻UP, 大, 神速ド天然, 4, 風雲！部活動リーグ～第１部～, 2015-01-22, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=20-111&img_size=m,l
 112, 383, 【暗部】栞＆帆釣, あんぶ しおり・ほつれ, N/A, HR, 依存, 陰湿, 敵全, 防DOWN, 中, 学園の裏側へようこそ, 1, 風雲！部活動リーグ～第１部～, 2015-02-02, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=20-112&img_size=m,l
 113, 384, 【執行者】計＆舞李, しっこうしゃ けい・まいり, N/A, HR, 狂気, 腹黒, 全, 攻UP, 中, 追い詰める権力, 1, 風雲！部活動リーグ～第１部～, 2015-02-02, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=20-113&img_size=m,l
 114, 385, 熱血指導員、風間先生, ねっけつしどういん かざませんせい, 風間 弥生, HR, 狂気, 凶暴, 自, 狂乱, 大, 情熱のスパルタ指導, 1, 風雲！部活動リーグ～第１部～, 2015-02-01, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=20-114&img_size=m,l
@@ -1085,7 +1085,7 @@
 60061, 3753, ソフィア・キューピッド, そふぃあきゅーぴっど, ソフィア・キューピッド, HR, 束縛, 献身, 敵全, 攻DOWN, 大, ポンコツサンタでごめんなさい泣, 4, トナカイズ ラブ with santa, 2019-12-12, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=22-72&img_size=m,l
 60062, 3757, 【天使】星乃こころ, てんし ほしの こころ, 星乃こころ, R, 執着, 元気, 自, 攻UP, 中, 天使のアタシ…どう？可愛い？, 4, 天使と過ごした5日間, 2019-12-26, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=22-73&img_size=m,l
 60063, 3761, 【天使】仁科 香澄, てんし にしな かすみ, 仁科 香澄, R, 狂気, 凶暴, 全, 狂乱, 小, あなたの最愛の彼女で天使の香澄だよ★, 4, 天使と過ごした5日間, 2019-12-26, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=22-74&img_size=m,l
-60064, 3765, 魔神を呼ぼうとしたら、大天使が来た, , N/A, R, *, *, NULL, NULL, NULL, NULL, 1, 天使と過ごした5日間, 2020-01-06, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=22-75&img_size=m,l
+60064, 3765, 魔神を呼ぼうとしたら、大天使が来た, まじんをよぼうとしたらだいてんしがきた, N/A, R, 執着, 陰湿, 全, 攻UP, 中, 魔法陣から出てきたもの…それは…, 1, 天使と過ごした5日間, 2020-01-06, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=22-75&img_size=m,l
 60065, 3766, タタエル, たたえる, タタエル, HR, 執着, 清楚, 敵全, 防DOWN, 中, タタエル, 4, 天使と過ごした5日間, 2019-12-26, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=22-76&img_size=m,l
 60066, 3770, ナブリエル, なぶりえる, ナブリエル, HR, 束縛, 狡猾, 全, 防UP, 中, 私は大天使。貴方に拒否権はない。, 4, 天使と過ごした5日間, 2020-01-06, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=22-77&img_size=m,l
 60067, 3774, 天矢 える, あまや える, 天矢 える, HR, 束縛, 清楚, 全, 防UP, 大, 恋…なんて素敵なものなのでしょう…, 4, 天使と過ごした5日間, 2019-12-26, https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=22-78&img_size=m,l
