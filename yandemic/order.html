@@ -219,8 +219,27 @@
             rawFile.send(null);
         }
         readTextFile("./yandemicList.txt");
-        
+
         function TableInput(allText){
+            let rowList = []
+            rowList["no"] = 0;
+            rowList["listNo"] = 1
+            rowList["name"] = 2;
+            rowList["read"] = 3;
+            rowList["origin"] = 4;
+            rowList["rare"] = 5;
+            rowList["zokusei"] = 6;
+            rowList["seikaku"] = 7;
+            rowList["skill_who"] = 8;
+            rowList["skill_what"] = 9;
+            rowList["skill_size"] = 10;
+            rowList["skill_name"] = 11;
+            rowList["kind"] = 12;
+            rowList["count"] = 13;
+            rowList["eventName"] = 14;
+            rowList["eventDate"] = 15;
+            rowList["url"] = 16;
+
             // 1行ずつ分ける
             let rows = allText.split("\n");
             for (i = 0; i < rows.length - 1; i++){
@@ -230,7 +249,7 @@
                 table.appendChild(tr);
                 for (j = 0; j < cols.length; j++){
                     // タイトル定義
-                    if (j == 3){
+                    if (j == rowList["read"]){
                         let td = tr.getElementsByTagName('td');
                         td[td.length-1].title = cols[j];
                     }
@@ -239,11 +258,11 @@
                         let td = document.createElement('td');
                         tr.appendChild(td);
                         // URL定義
-                        if (j == cols.length - 1){
+                        if (j == rowList["url"]){
                             td.innerHTML = "<a href = '" + cols[j] + "'>移動</a>";
                         }
                         // 日付
-                        else if (j == 14){
+                        else if (j == rowList["eventDate"]){
                             let days = ["(日)", "(月)", "(火)", "(水)", "(木)", "(金)", "(土)"];
                             let day = new Date(cols[j]).getDay();
                             td.innerHTML = cols[j] + " " + days[day];
@@ -256,7 +275,7 @@
                 }
             }
         }
-        
+
         let tableName = [];
         tableName["no"] = 0;
         tableName["listNo"] = 1
