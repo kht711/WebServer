@@ -34,7 +34,9 @@
             </tr>
             <tr>
                 <td>
-                    <label>獲得方法</label>
+                    <label>
+                        <input type = 'checkbox' id = "cKind" onclick='filter()'>獲得方法
+                    </label>
                 </td>
                 <td>
                     <select id = 'kind' style = 'width:150px' onchange='filter()'>
@@ -355,7 +357,9 @@
             let skill_who = document.getElementById('skill_who').value;
             let skill_what = document.getElementById('skill_what').value;
             let skill_size = document.getElementById('skill_size').value;
+
             let cRare = document.getElementById('cRare').checked;
+            let cKind = document.getElementById('cKind').checked;
             let cZokusei = document.getElementById('cZokusei').checked;
             let cSeikaku = document.getElementById('cSeikaku').checked;
             let cSkill_who = document.getElementById('cSkill_who').checked;
@@ -401,14 +405,6 @@
                     }
                 }
             }
-            if (kind != '*'){
-                for (i = 1; i < tr.length; i++){
-                    let td = tr[i].getElementsByTagName('td');
-                    if (td[ tableName["kind"] ].innerHTML != kind){
-                        tr[i].style.display = "none";
-                    }
-                }
-            }
             if (!cRare){
                 th[ tableName["rare"] ].style.display = "none";
                 for (i = 1; i < tr.length; i++){
@@ -418,6 +414,24 @@
                 }
             }else{
                 varWidth += parseInt(th[ tableName["rare"] ].style.width);
+            }
+            if (kind != '*'){
+                for (i = 1; i < tr.length; i++){
+                    let td = tr[i].getElementsByTagName('td');
+                    if (td[ tableName["kind"] ].innerHTML != kind){
+                        tr[i].style.display = "none";
+                    }
+                }
+            }
+            if (!cKind){
+                th[ tableName["kind"] ].style.display = "none";
+                for (i = 1; i < tr.length; i++){
+                    let td = tr[i].getElementsByTagName("td");
+                    td[ tableName["kind"] ].style.display = "none";
+                    varWidth -= parseInt(th[ tableName["kind"] ].style.width);
+                }
+            }else{
+                varWidth += parseInt(th[ tableName["kind"] ].style.width);
             }
             if (zokusei != '*'){
                 for (i = 1; i < tr.length; i++){
