@@ -34,6 +34,23 @@
             </tr>
             <tr>
                 <td>
+                    <label>獲得方法</label>
+                </td>
+                <td>
+                    <select id = 'kind' style = 'width:150px' onchange='filter()'>
+                        <option value = '*'>*</option>
+                        <option value = 'イベント'>イベント</option>
+                        <option value = 'イベント報酬'>イベント報酬</option>
+                        <option value = 'ガチャ限定'>ガチャ限定</option>
+                        <option value = '特別報酬'>特別報酬</option>
+                        <option value = 'ログイン報酬'>ログイン報酬</option>
+                        <option value = 'バトル報酬'>バトル報酬</option>
+                        <option value = '探索'>探索</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
                     <label>
                         <input type = 'checkbox' id = "cZokusei" onclick='filter()'>属性
                     </label>
@@ -175,6 +192,7 @@
             <th>スキル内容</th>
             <th>スキル規模</th>
             <th>スキル名</th>
+            <th>獲得方法</th>
             <th>カード個数</th>
             <th>イベント・ガチャ</th>
             <th>出現日付</th>
@@ -312,6 +330,7 @@
             let name = document.getElementById('name').value;
             let origin = document.getElementById('origin').value
             let rare = document.getElementById('rare').value;
+            let kind = document.getElementById('kind').value;
             let zokusei = document.getElementById('zokusei').value;
             let seikaku = document.getElementById('seikaku');
             let skill_who = document.getElementById('skill_who').value;
@@ -359,6 +378,14 @@
                 for (i = 1; i < tr.length; i++){
                     let td = tr[i].getElementsByTagName('td');
                     if (td[ tableName["rare"] ].innerHTML != rare){
+                        tr[i].style.display = "none";
+                    }
+                }
+            }
+            if (kind != '*'){
+                for (i = 1; i < tr.length; i++){
+                    let td = tr[i].getElementsByTagName('td');
+                    if (td[ tableName["kind"] ].innerHTML != kind){
                         tr[i].style.display = "none";
                     }
                 }
