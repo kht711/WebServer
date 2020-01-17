@@ -223,6 +223,9 @@
         readTextFile("./yandemicList.txt");
 
         function TableInput(allText){
+            let url = "https://www.kikuya-rental.com/bbs/?owner_name=yandemi&action=single&tr_id=";
+            let backUrl = "&img_size=m,l";
+
             let rowList = []
             rowList["no"] = 0;
             rowList["listNo"] = 1
@@ -261,7 +264,7 @@
                         tr.appendChild(td);
                         // URL定義
                         if (j == rowList["url"]){
-                            td.innerHTML = "<a href = '" + cols[j] + "'>移動</a>";
+                            td.innerHTML = "<a href = '" + url + cols[j] + backUrl + "'>移動</a>";
                         }
                         // 日付
                         else if (j == rowList["eventDate"]){
