@@ -7,7 +7,7 @@ function submit(){
 
 function div(value){
     let body = document.getElementById("body");
-    if (value == "start"){
+    if (value == "c3RhcnQ" || value == "start"){
         body.innerHTML = text;
     }
 }
